@@ -1206,6 +1206,59 @@
 	Color & Swatches	Màu & Mẫu màu
 	Click sets foreground · right-click sets background	Bấm đặt nền trước · chuột phải đặt nền
 
+# Phase 3.12 — Channels + Paths + Navigator + Info + Histogram
+	Show the layer mask as an overlay	Hiện mặt nạ lớp dạng phủ
+	Toggle visibility	Bật/tắt hiện
+	Load channel as selection	Tải kênh thành vùng chọn
+	Save selection as channel	Lưu vùng chọn thành kênh
+	Delete current channel	Xóa kênh hiện tại
+	Create new channel	Tạo kênh mới
+	Overlay Color	Màu phủ
+	Overlay Opacity	Độ mờ phủ
+	Cyan	Cyan
+	Black	Đen
+	RGB	RGB
+	Quick Mask	Mặt nạ nhanh
+	Duplicate Channel	Nhân bản kênh
+	Delete Channel	Xóa kênh
+	Rename Channel…	Đổi tên kênh…
+	Merge Spot Channel	Gộp kênh spot
+	Convert to Alpha Channel	Chuyển thành kênh alpha
+	Exit Quick Mask	Thoát mặt nạ nhanh
+	New Channel…	Kênh mới…
+	New Spot Channel…	Kênh spot mới…
+	Split Channels	Tách kênh
+	Merge Channels…	Gộp kênh…
+	Color Indicates Masked Areas	Màu chỉ vùng bị che
+	Color Indicates Selected Areas	Màu chỉ vùng được chọn
+	✓ Color Indicates Masked Areas	✓ Màu chỉ vùng bị che
+	✓ Color Indicates Selected Areas	✓ Màu chỉ vùng được chọn
+	Work Path	Đường dẫn làm việc
+	Make Selection	Tạo vùng chọn
+	Fill Path	Tô đường dẫn
+	Stroke Path	Đi nét đường dẫn
+	Save Path	Lưu đường dẫn
+	Duplicate Path	Nhân bản đường dẫn
+	Delete Path	Xóa đường dẫn
+	Delete Vector Mask	Xóa mặt nạ vector
+	Draw with the Pen tool (P) or make a work path from a selection.	Vẽ bằng công cụ Bút (P) hoặc tạo đường dẫn làm việc từ vùng chọn.
+	Fill path with foreground color	Tô đường dẫn bằng màu nền trước
+	Stroke path with brush	Đi nét đường dẫn bằng cọ
+	Load path as a selection	Tải đường dẫn thành vùng chọn
+	Make work path from selection	Tạo đường dẫn làm việc từ vùng chọn
+	Add vector mask	Thêm mặt nạ vector
+	Create new path	Tạo đường dẫn mới
+	Delete path	Xóa đường dẫn
+	Delete vector mask	Xóa mặt nạ vector
+	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	Không có đường dẫn để tạo vùng chọn: vẽ bằng công cụ Bút hoặc chọn một đường dẫn trong bảng Đường dẫn.
+	Fit	Vừa
+	Doc: {w} × {h} px	Tài liệu: {w} × {h} px
+	Mean:	Trung bình:
+	Std Dev:	Độ lệch chuẩn:
+	Median:	Trung vị:
+	Pixels:	Pixel:
+	Cache Level:	Mức cache:
+
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
 	Mixer Brush Tool	Công cụ Cọ trộn

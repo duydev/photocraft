@@ -171,7 +171,7 @@ pub fn show(app: &mut PhotocraftApp, ui: &mut egui::Ui) {
             let italic = matches!(row, Row::QuickMask | Row::LayerMask) || matches!(row, Row::Alpha(i) if doc.channels[i].spot.is_some());
             let mut job = egui::text::LayoutJob::default();
             let font = if selected && !t.pro { theme::medium(12.5) } else { egui::FontId::proportional(12.0) };
-            job.append(&name, 0.0, egui::TextFormat { font_id: font, color: t.text, italics: italic, ..Default::default() });
+            job.append(tl!(&name), 0.0, egui::TextFormat { font_id: font, color: t.text, italics: italic, ..Default::default() });
             let galley = painter.layout_job(job);
             let text_pos = pos2(cell.right() + 10.0, rect.center().y - galley.size().y / 2.0);
             painter.galley(text_pos, galley, t.text);
