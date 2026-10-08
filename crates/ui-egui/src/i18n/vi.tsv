@@ -804,8 +804,8 @@
 	Radial Gradient	Chuyển sắc xuyên tâm
 	Angle Gradient	Chuyển sắc góc
 	Reflected Gradient	Chuyển sắc phản chiếu
-	Diamond Gradient	Chuyển sắc kim cương
-	Dither	Dither
+	Diamond Gradient	Chuyển sắc hình thoi
+	Dither	Hòa sắc
 	Overlay: Rule of Thirds	Phủ: Quy tắc một phần ba
 	Swaps height and width	Đổi chiều cao và chiều rộng
 	Fit Screen	Vừa màn hình
@@ -1003,7 +1003,7 @@
 	Output Levels:	Mức đầu ra:
 	Output:	Đầu ra:
 	Preserve Luminosity	Giữ độ sáng
-	Preset:	Preset:
+	Preset:	Thiết lập sẵn:
 	Threshold Level	Mức ngưỡng
 	Tone:	Tông:
 	Total:	Tổng:
@@ -1163,8 +1163,8 @@
 	Enable {name}	Bật {name}
 	Create new brush from these settings	Tạo cọ mới từ các thiết lập này
 	Reset the brush to the defaults	Đặt lại cọ về mặc định
-	Lock: keep these settings when picking another preset	Khóa: giữ các thiết lập này khi chọn preset khác
-	Unlock: picking a preset replaces these settings	Mở khóa: chọn preset sẽ thay các thiết lập này
+	Lock: keep these settings when picking another preset	Khóa: giữ các thiết lập này khi chọn thiết lập sẵn khác
+	Unlock: picking a preset replaces these settings	Mở khóa: chọn thiết lập sẵn sẽ thay các thiết lập này
 	Search Brushes	Tìm cọ
 	No brush presets	Không có thiết lập sẵn cọ
 	Rename Brush…	Đổi tên cọ…
@@ -1182,6 +1182,29 @@
 	Linear Burn	Đốt tuyến tính
 	Hard Mix	Trộn cứng
 	Linear Height	Cao tuyến tính
+
+# Phase 3.11 — Gradients + Patterns + Swatches asset panels
+	Gradient	Chuyển sắc
+	Gradient Options	Tùy chọn chuyển sắc
+	Linear	Tuyến tính
+	Radial	Xuyên tâm
+	Angle	Góc
+	Reflected	Phản chiếu
+	Diamond	Hình thoi
+	Align with layer	Căn với lớp
+	Reset Alignment	Đặt lại căn chỉnh
+	Centre the gradient (offset 0, 0)	Căn giữa chuyển sắc (dịch lệch 0, 0)
+	The current gradient (pick one in Window › Gradients)	Chuyển sắc hiện tại (chọn trong Cửa sổ › Chuyển sắc)
+	Click to edit the gradient	Bấm để chỉnh chuyển sắc
+	Create new gradient	Tạo chuyển sắc mới
+	Create new pattern from the selection	Tạo họa tiết mới từ vùng chọn
+	Create new group	Tạo nhóm mới
+	Move to	Chuyển tới
+	Name:	Tên:
+	Rename…	Đổi tên…
+	Thumbnail size (smallest: list)	Cỡ hình thu nhỏ (nhỏ nhất: danh sách)
+	Color & Swatches	Màu & Mẫu màu
+	Click sets foreground · right-click sets background	Bấm đặt nền trước · chuột phải đặt nền
 
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
