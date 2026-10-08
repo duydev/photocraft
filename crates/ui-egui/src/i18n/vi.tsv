@@ -11,8 +11,8 @@
 #
 # Status: intentionally incomplete. Missing entries fall back to English. `complete_menus` stays
 # false until the catalog covers menus, `tl!` literals, blend modes and preference labels.
-# Phase 3.1–3.6: all top-level menu trees. Panel/dialog internals remain later.
-# dialogs remain for later batches.
+# Phase 3.1–3.6: all top-level menu trees. Phase 3.7: tool names + Tool Options bar.
+# Panel/dialog internals remain later.
 #
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
 # Vietnamese computing and image-editing vocabulary. No proprietary localisation resource, string
@@ -691,6 +691,201 @@
 	Tool Presets	Thiết lập sẵn công cụ
 	Tools	Công cụ
 	Workspace	Không gian làm việc
+
+
+# Phase 3.7 — tool names + Tool Options bar
+	Move Tool	Công cụ Di chuyển
+	Rectangular Marquee Tool	Công cụ Vùng chọn chữ nhật
+	Elliptical Marquee Tool	Công cụ Vùng chọn elip
+	Brush Tool	Công cụ Cọ
+	Pencil Tool	Công cụ Bút chì
+	Eraser Tool	Công cụ Tẩy
+	Background Eraser Tool	Công cụ Tẩy nền
+	Magic Eraser Tool	Công cụ Tẩy thần
+	Eyedropper Tool	Công cụ Ống hút màu
+	Note Tool	Công cụ Ghi chú
+	Lasso Tool	Công cụ Lasso
+	Polygonal Lasso Tool	Công cụ Lasso đa giác
+	Magnetic Lasso Tool	Công cụ Lasso từ tính
+	Magic Wand Tool	Công cụ Đũa thần
+	Crop Tool	Công cụ Cắt
+	Slice Tool	Công cụ Lát cắt
+	Slice Select Tool	Công cụ Chọn lát cắt
+	Gradient Tool	Công cụ Chuyển sắc
+	Paint Bucket Tool	Công cụ Tô màu
+	Horizontal Type Tool	Công cụ Chữ ngang
+	Vertical Type Tool	Công cụ Chữ dọc
+	Hand Tool	Công cụ Bàn tay
+	Zoom Tool	Công cụ Thu phóng
+	Spot Healing Brush Tool	Công cụ Cọ sửa khuyết điểm
+	Healing Brush Tool	Công cụ Cọ phục hồi
+	Patch Tool	Công cụ Vá
+	Content-Aware Move Tool	Công cụ Di chuyển theo nội dung
+	Clone Stamp Tool	Công cụ Dấu nhân bản
+	History Brush Tool	Công cụ Cọ lịch sử
+	Blur Tool	Công cụ Làm mờ
+	Sharpen Tool	Công cụ Làm nét
+	Smudge Tool	Công cụ Bôi nhòe
+	Dodge Tool	Công cụ Làm sáng
+	Burn Tool	Công cụ Làm tối
+	Sponge Tool	Công cụ Bọt biển
+	Quick Selection Tool	Công cụ Chọn nhanh
+	Object Selection Tool	Công cụ Chọn đối tượng
+	Pen Tool	Công cụ Bút
+	Path Selection Tool	Công cụ Chọn đường dẫn
+	Direct Selection Tool	Công cụ Chọn trực tiếp
+	Rectangle Tool	Công cụ Hình chữ nhật
+	Ellipse Tool	Công cụ Hình elip
+	Triangle Tool	Công cụ Hình tam giác
+	Polygon Tool	Công cụ Đa giác
+	Line Tool	Công cụ Đường thẳng
+	Custom Shape Tool	Công cụ Hình tùy chỉnh
+	Set foreground color	Đặt màu nền trước
+	Set background color	Đặt màu nền
+	Swap colours (X)	Đổi màu (X)
+	Default colours (D)	Màu mặc định (D)
+	Edit Toolbar…	Sửa thanh công cụ…
+	Edit in Quick Mask Mode  (Q)	Chỉnh sửa ở chế độ Mặt nạ nhanh  (Q)
+	Edit in Standard Mode  (Q)	Chỉnh sửa ở chế độ chuẩn  (Q)
+	Change Screen Mode  (F)	Đổi chế độ màn hình  (F)
+	Opacity	Độ đục
+	Opacity:	Độ đục:
+	Hardness	Độ cứng
+	Smoothing	Làm mượt
+	Tolerance	Dung sai
+	Tolerance:	Dung sai:
+	Contiguous	Liền kề
+	Discontiguous	Không liền kề
+	Anti-alias	Khử răng cưa
+	Aligned	Căn chỉnh
+	New selection	Vùng chọn mới
+	Add to selection  ({key})	Thêm vào vùng chọn  ({key})
+	Subtract from selection  ({key})	Bớt khỏi vùng chọn  ({key})
+	Intersect with selection  ({key})	Giao với vùng chọn  ({key})
+	Fixed Ratio	Tỷ lệ cố định
+	Fixed Size	Kích thước cố định
+	Sample:	Lấy mẫu:
+	Current Layer	Lớp hiện tại
+	Current & Below	Hiện tại & dưới
+	Mode:	Chế độ:
+	Content-Aware	Theo nội dung
+	Scrubby Zoom	Thu phóng kéo
+	Auto Erase	Tự động tẩy
+	Protect Tones	Bảo vệ tông
+	Protect Detail	Bảo vệ chi tiết
+	Protect Foreground Color	Bảo vệ màu nền trước
+	Width	Chiều rộng
+	Height	Chiều cao
+	Delete Cropped Pixels	Xóa pixel đã cắt
+	Fill	Tô
+	Fill:	Tô:
+	Stroke:	Nét:
+	Weight:	Độ dày:
+	Sides:	Số cạnh:
+	Radius:	Bán kính:
+	Foreground	Nền trước
+	Background	Nền
+	Style	Kiểu
+	Normal	Bình thường
+	None	Không
+	Pattern	Họa tiết
+	Group	Nhóm
+	Path	Đường dẫn
+	Show Transform Controls	Hiện điều khiển biến đổi
+	Auto-Select:	Tự chọn:
+	Pressure for Size	Áp lực cho kích thước
+	Pressure for Opacity	Áp lực cho độ đục
+	Always use pressure for size	Luôn dùng áp lực cho kích thước
+	Always use pressure for opacity	Luôn dùng áp lực cho độ đục
+	Enable airbrush-style build-up effects	Bật hiệu ứng tích tụ kiểu airbrush
+	Use tablet pressure to change pen width	Dùng áp lực bảng vẽ để đổi độ rộng nét
+	Zoom	Thu phóng
+	Linear Gradient	Chuyển sắc tuyến tính
+	Radial Gradient	Chuyển sắc xuyên tâm
+	Angle Gradient	Chuyển sắc góc
+	Reflected Gradient	Chuyển sắc phản chiếu
+	Diamond Gradient	Chuyển sắc kim cương
+	Dither	Dither
+	Overlay: Rule of Thirds	Phủ: Quy tắc một phần ba
+	Swaps height and width	Đổi chiều cao và chiều rộng
+	Fit Screen	Vừa màn hình
+	Fill Screen	Lấp đầy màn hình
+	Select Subject	Chọn chủ thể
+	Frequency	Tần suất
+	Limits:	Giới hạn:
+	Sampling: Continuous	Lấy mẫu: Liên tục
+	Sampling: Once	Lấy mẫu: Một lần
+	Sampling: Background Swatch	Lấy mẫu: Mẫu màu nền
+	Strength:	Cường độ:
+	Exposure:	Phơi sáng:
+	Range:	Phạm vi:
+	Type:	Kiểu:
+	Source	Nguồn
+	Destination	Đích
+	Patch:	Vá:
+	Create Texture	Tạo texture
+	Proximity Match	Khớp gần
+	Structure:	Cấu trúc:
+	Finger Painting	Vẽ bằng ngón
+	Enhance Edge	Tăng cường cạnh
+	Extend	Mở rộng
+	Move	Di chuyển
+	Saturate	Tăng bão hòa
+	Color:	Màu:
+	{key}-click to set the source	{key}-click để đặt nguồn
+	{key} to subtract	{key} để trừ
+	Drag a rectangle around the object	Kéo hình chữ nhật quanh đối tượng
+	Lasso around an area, then drag the selection	Khoanh vùng bằng Lasso, rồi kéo vùng chọn
+	Left align text	Căn chữ trái
+	Center text	Căn chữ giữa
+	Right align text	Căn chữ phải
+	Toggle text orientation	Đổi hướng chữ
+	Set the text color	Đặt màu chữ
+	Cancel any current edits (Esc)	Hủy chỉnh sửa hiện tại (Esc)
+	Commit any current edits ({key})	Áp dụng chỉnh sửa hiện tại ({key})
+	Author:	Tác giả:
+	Clear All	Xóa tất cả
+	Count: {n}	Đếm: {n}
+	Create a new count group	Tạo nhóm đếm mới
+	Delete count group	Xóa nhóm đếm
+	Toggle count group visibility	Bật/tắt hiện nhóm đếm
+	Label Size	Cỡ nhãn
+	Marker Size	Cỡ dấu
+	Show or hide the Notes panel	Hiện hoặc ẩn bảng Ghi chú
+	Straighten Layer	Làm thẳng lớp
+	Use Measurement Scale	Dùng tỷ lệ đo
+	Divide…	Chia…
+	Hide Auto Slices	Ẩn lát cắt tự động
+	Promote	Nâng cấp
+	Slice Options…	Tùy chọn lát cắt…
+	Slices From Guides	Lát cắt từ đường căn
+	Slices are locked (View › Lock Slices)	Lát cắt đã khóa (Hiển thị › Khóa lát cắt)
+	Style: Normal	Kiểu: Bình thường
+	Drag to move the active layer	Kéo để di chuyển lớp đang chọn
+	Drag to pan  ·  hold Space with any tool	Kéo để xem toàn cảnh  ·  giữ Space với mọi công cụ
+	Drag to draw a gradient	Kéo để vẽ chuyển sắc
+	Click to fill similar colours	Bấm để tô các màu tương tự
+	Click to add text	Bấm để thêm chữ
+	Click to sample the foreground colour  ·  {key}-click for background	Bấm để lấy mẫu màu nền trước  ·  {key}-click cho nền
+	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	Bấm để phóng to  ·  {key}-click để thu xa  ·  kéo phải/trái để thu phóng
+	Drag or click polygon points · hold Alt during lasso for straight segments · {add} add · {sub} before drawing subtracts	Kéo hoặc bấm điểm đa giác · giữ Alt khi Lasso để có đoạn thẳng · {add} thêm · {sub} trước khi vẽ sẽ trừ
+	Hold Alt while drawing for straight segments	Giữ Alt khi vẽ để có đoạn thẳng
+	Click the first point or press {key} to close · Esc cancels	Bấm điểm đầu hoặc nhấn {key} để đóng · Esc hủy
+	Click the first point or press {key} to close · {del} removes a point · Esc cancels	Bấm điểm đầu hoặc nhấn {key} để đóng · {del} xóa điểm · Esc hủy
+	Click, then move along an edge · click to fasten a point · {alt}-click for a straight segment · double-click to close	Bấm, rồi di chuyển dọc cạnh · bấm để ghim điểm · {alt}-click cho đoạn thẳng · double-click để đóng
+	Follows only edges this close to the pointer ([ and ] change it)	Chỉ theo cạnh gần con trỏ trong khoảng này ([ và ] để đổi)
+	Higher values follow only edges that contrast sharply with their surroundings	Giá trị cao hơn chỉ theo cạnh tương phản rõ với xung quanh
+	How often fastening points are placed by themselves	Tần suất tự đặt điểm ghim
+	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · {commit} commits · Esc cancels	Kéo khung cắt · kéo bên trong để di chuyển · cạnh đổi kích thước ({ratio} tỷ lệ, {centre} tâm) · Space di chuyển khi vẽ · {commit} áp dụng · Esc hủy
+	Commit current crop operation  ({key})	Áp dụng thao tác cắt hiện tại  ({key})
+	Cancel current crop operation  (Esc)	Hủy thao tác cắt hiện tại  (Esc)
+	Align and distribute	Căn chỉnh và phân bố
+	Align left edges	Căn cạnh trái
+	Align horizontal centers	Căn tâm ngang
+	Align right edges	Căn cạnh phải
+	Drag to move the active shape's path or the Work Path	Kéo để di chuyển đường dẫn hình đang chọn hoặc Đường dẫn làm việc
+	Click: corner · Drag: smooth · Click first point: close · {key} finish · Esc cancel	Bấm: góc · Kéo: mượt · Bấm điểm đầu: đóng · {key} xong · Esc hủy
+	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	Bấm: chọn điểm neo · Kéo: di chuyển điểm neo, tay nắm hoặc đoạn · {shift}-click: thêm · {alt}-click: cả nhánh con
 
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
