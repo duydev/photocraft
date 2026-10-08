@@ -1,0 +1,111 @@
+# Vietnamese (vi) catalog. Columns, separated by a TAB:  context <TAB> source <TAB> translation
+#
+#   context  empty                a plain UI string; `source` is the English text in the code
+#            @id                  a command id (e.g. file.saveAs): wins over the English text for
+#                                 that menu item, so one id can read differently from its twin
+#            @plural              `source` is "one|other" (English forms); the translation lists the
+#                                 language's forms separated by "|" (see `plural` in i18n/mod.rs)
+#            anything else        a disambiguating context passed to `tr_ctx`
+#   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns.
+#   lines starting with # and blank lines are ignored.
+#
+# Status: intentionally incomplete. Missing entries fall back to English. `complete_menus` stays
+# false until the catalog covers menus, `tl!` literals, blend modes and preference labels. This
+# file currently holds only the strings that every registered non-English catalog must supply
+# (Mixer Brush UI and Camera Raw labels). Full Vietnamese translation is a later contribution.
+#
+# Clean-room: every entry was written from the plain meaning of the English label using ordinary
+# Vietnamese computing and image-editing vocabulary. No proprietary localisation resource, string
+# table or product UI was consulted or copied; add entries the same way. Product and technology
+# names (PhotoCraft, ArtCraft, OpenType, RGB, CMYK, Lab, PSD, PNG, JPEG, WebP, OpenEXR, AVIF …)
+# stay as they are; the trailing "…" of dialog commands is kept. Plural rule: one form
+# (`plural_none` in i18n/mod.rs).
+
+# Mixer Brush (required for every registered non-English language)
+	Mixer Brush	Cọ trộn
+	Mixer Brush Tool	Công cụ Cọ trộn
+	Wet	Ướt
+	Load	Tải
+	Mix	Trộn
+	Flow	Lưu lượng
+	Sample All Layers	Lấy mẫu mọi lớp
+
+# Camera Raw labels (required for every registered non-English language)
+	Amount	Mức
+	Aqua	Xanh ngọc
+	Balance	Cân bằng
+	Before (Y)	Trước (Y)
+	Blacks	Đen
+	Blending	Pha trộn
+	Blue	Xanh dương
+	Camera Raw Filter ({layer})	Bộ lọc Camera Raw ({layer})
+	Camera Raw isn't open	Camera Raw chưa mở
+	Cancel	Hủy
+	Clarity	Độ trong
+	Color	Màu
+	Color Detail	Chi tiết màu
+	Color Grading	Phân cấp màu
+	Color Mixer	Bộ trộn màu
+	Color Priority	Ưu tiên màu
+	Contrast	Độ tương phản
+	Curve	Đường cong
+	Darks	Vùng tối trung bình
+	Dehaze	Khử sương
+	Detail	Chi tiết
+	Effects	Hiệu ứng
+	Exposure	Phơi sáng
+	Feather	Làm mềm cạnh
+	Full-resolution preview unavailable	Không có bản xem trước độ phân giải đầy đủ
+	Global	Toàn cục
+	Grain	Hạt
+	Green	Xanh lục
+	Highlight Clipping Warning (O)	Cảnh báo cắt vùng sáng (O)
+	Highlight Priority	Ưu tiên vùng sáng
+	Highlights	Vùng sáng
+	Hue	Tông màu
+	Light	Ánh sáng
+	Lights	Vùng sáng trung bình
+	Luminance	Độ sáng
+	Luminance Detail	Chi tiết độ sáng
+	Magenta	Magenta
+	Masking	Che
+	Midpoint	Điểm giữa
+	Midtones	Trung tính
+	Noise Reduction	Giảm nhiễu
+	OK	OK
+	Orange	Cam
+	Paint Overlay	Phủ vẽ
+	Purple	Tím
+	Radius	Bán kính
+	Red	Đỏ
+	Roughness	Độ thô
+	Roundness	Độ tròn
+	Saturation	Độ bão hòa
+	Shadow Clipping Warning (U)	Cảnh báo cắt vùng tối (U)
+	Shadows	Vùng tối
+	Sharpening	Làm nét
+	Show Lab Color Readouts	Hiện số đọc màu Lab
+	Show Red at 3 o'clock	Hiện đỏ ở vị trí 3 giờ
+	Show Selected Region	Hiện vùng đã chọn
+	Show Skin Tone Indicator	Hiện chỉ báo tông da
+	Show Vectorscope	Hiện Vectorscope
+	Size	Kích thước
+	Temperature	Nhiệt độ màu
+	Texture	Kết cấu
+	Tint	Phủ màu
+	Tone Histogram	Biểu đồ tông
+	Vibrance	Độ sống động
+	Vignetting	Viền tối
+	White Balance: As Shot	Cân bằng trắng: Như khi chụp
+	Whites	Trắng
+	Yellow	Vàng
+cameraRaw	Light	Ánh sáng
+cameraRaw	Lights	Vùng sáng trung bình
+cameraRaw	Darks	Vùng tối trung bình
+cameraRaw	Blacks	Đen
+cameraRaw	Amount	Mức
+cameraRaw	Tint	Phủ màu
+cameraRaw	Masking	Che
+cameraRaw	Blending	Pha trộn
+cameraRaw	Highlights	Vùng sáng
+cameraRaw	Shadows	Vùng tối
