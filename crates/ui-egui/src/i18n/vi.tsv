@@ -11,7 +11,7 @@
 #
 # Status: intentionally incomplete. Missing entries fall back to English. `complete_menus` stays
 # false until the catalog covers menus, `tl!` literals, blend modes and preference labels.
-# Phase 3.1–3.8: menus, tools, core panels. Phase 3.9: Character/Paragraph/Glyphs.
+# Phase 3.1–3.9: menus, tools, panels, typography. Phase 3.10: Brushes/Brush Settings.
 # Other panel internals remain later.
 #
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
@@ -1057,7 +1057,7 @@
 	Right	Phải
 	Type Styles	Kiểu chữ
 	No character style	Không có kiểu ký tự
-	Click to apply, {key}-click to clear overrides, double-click for Style Options	Bấm để áp dụng, {key}-click để xóa ghi đè, double-click cho Tùy chọn kiểu
+	Click to apply, {key}-click to clear overrides, double-click for Style Options	Bấm để áp dụng, {key}-click để xóa ghi đè, nhấp đúp cho Tùy chọn kiểu
 	Clear Override	Xóa ghi đè
 	Redefine style by current selection	Định nghĩa lại kiểu theo vùng chọn hiện tại
 	Delete style	Xóa kiểu
@@ -1084,6 +1084,104 @@
 	Symbols	Ký hiệu
 	Math Symbols	Ký hiệu toán
 	Arrows	Mũi tên
+
+
+# Phase 3.10 — Brushes + Brush Settings panel internals
+	Brush Tip Shape	Hình dạng đầu cọ
+	Shape Dynamics	Biến thiên hình dạng
+	Scattering	Phân tán
+	Dual Brush	Cọ kép
+	Color Dynamics	Biến thiên màu
+	Transfer	Truyền
+	Brush Pose	Tư thế cọ
+	Wet Edges	Cạnh ướt
+	Build-up	Tích tụ
+	Protect Texture	Bảo vệ kết cấu
+	Flip X	Lật X
+	Flip Y	Lật Y
+	Flip	Lật
+	Angle:	Góc:
+	Roundness:	Độ tròn:
+	Spacing	Khoảng cách
+	Off: the speed of the pointer sets the spacing	Tắt: tốc độ con trỏ quyết định khoảng cách
+	Drag the arrow to set the angle, the dots to set the roundness	Kéo mũi tên để đặt góc, các chấm để đặt độ tròn
+	Restore original size	Khôi phục kích thước gốc
+	Diameter:	Đường kính:
+	Hardness:	Độ cứng:
+	Size Jitter	Dao động kích thước
+	Angle Jitter	Dao động góc
+	Roundness Jitter	Dao động độ tròn
+	Count Jitter	Dao động số lượng
+	Depth Jitter	Dao động độ sâu
+	Opacity Jitter	Dao động độ mờ
+	Flow Jitter	Dao động lưu lượng
+	Wetness Jitter	Dao động độ ướt
+	Mix Jitter	Dao động độ trộn
+	Hue Jitter	Dao động tông màu
+	Saturation Jitter	Dao động độ bão hòa
+	Brightness Jitter	Dao động độ sáng
+	Foreground/Background Jitter	Dao động nền trước/nền
+	Flip X Jitter	Dao động lật X
+	Flip Y Jitter	Dao động lật Y
+	Minimum Diameter	Đường kính tối thiểu
+	Minimum Roundness	Độ tròn tối thiểu
+	Minimum Depth	Độ sâu tối thiểu
+	Tilt Scale	Tỷ lệ nghiêng
+	Brush Projection	Chiếu cọ
+	Apply the pen's tilt and rotation to the tip shape	Áp dụng độ nghiêng và góc xoay bút vào hình đầu cọ
+	Control:	Điều khiển:
+	Off	Tắt
+	Fade	Giảm dần
+	Fade steps	Số bước giảm dần
+	Pen Pressure	Áp lực bút
+	Pen Tilt	Độ nghiêng bút
+	Stylus Wheel	Bánh xe bút
+	Rotation	Xoay
+	Initial Direction	Hướng ban đầu
+	Direction	Hướng
+	Scatter	Độ phân tán
+	Both Axes	Cả hai trục
+	Pattern Size	Kích thước họa tiết
+	Texture Each Tip	Kết cấu mỗi đầu cọ
+	Depth	Độ sâu
+	Paper	Giấy
+	Dots	Chấm
+	Apply Per Tip	Áp dụng mỗi đầu cọ
+	Purity	Độ tinh khiết
+	Tilt X	Độ nghiêng X
+	Tilt Y	Độ nghiêng Y
+	Override Tilt	Ghi đè nghiêng
+	Override Rotation	Ghi đè xoay
+	Override Pressure	Ghi đè áp lực
+	Pressure	Áp lực
+	Pulled String Mode	Chế độ dây kéo
+	Stroke Catch-up	Bù theo nét
+	Catch-up on Stroke End	Bù khi kết thúc nét
+	Adjust for Zoom	Điều chỉnh theo thu phóng
+	Airbrush: keeps depositing paint while the pointer rests.	Airbrush: tiếp tục phủ màu khi con trỏ đứng yên.
+	Rate	Tốc độ
+	Enable {name}	Bật {name}
+	Create new brush from these settings	Tạo cọ mới từ các thiết lập này
+	Reset the brush to the defaults	Đặt lại cọ về mặc định
+	Lock: keep these settings when picking another preset	Khóa: giữ các thiết lập này khi chọn preset khác
+	Unlock: picking a preset replaces these settings	Mở khóa: chọn preset sẽ thay các thiết lập này
+	Search Brushes	Tìm cọ
+	No brush presets	Không có thiết lập sẵn cọ
+	Rename Brush…	Đổi tên cọ…
+	Delete Brush	Xóa cọ
+	Rename Group…	Đổi tên nhóm…
+	Delete Group	Xóa nhóm
+	Brush name	Tên cọ
+	Group name	Tên nhóm
+	Multiply	Nhân
+	Subtract	Trừ
+	Darken	Làm tối
+	Overlay	Phủ
+	Color Dodge	Làm sáng màu
+	Color Burn	Đốt màu
+	Linear Burn	Đốt tuyến tính
+	Hard Mix	Trộn cứng
+	Linear Height	Cao tuyến tính
 
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
