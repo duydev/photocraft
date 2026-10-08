@@ -11,7 +11,7 @@
 #
 # Status: intentionally incomplete. Missing entries fall back to English. `complete_menus` stays
 # false until the catalog covers menus, `tl!` literals, blend modes and preference labels.
-# Phase 3.1–3.7: menus + tools/options. Phase 3.8: Layers/Properties/History panels.
+# Phase 3.1–3.8: menus, tools, core panels. Phase 3.9: Character/Paragraph/Glyphs.
 # Other panel internals remain later.
 #
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
@@ -1010,6 +1010,80 @@
 	Use Legacy	Dùng bản cũ
 	Violet, Orange	Tím, Cam
 	Yellow  ·  Blue	Vàng  ·  Xanh dương
+
+
+# Phase 3.9 — Character + Paragraph + Glyphs typography panels
+	Font size	Cỡ chữ
+	Leading	Giãn dòng
+	Leading (set to the font size × auto-leading when Auto)	Giãn dòng (đặt bằng cỡ chữ × giãn dòng tự động khi Tự động)
+	Tracking	Giãn ký tự
+	Tracking (1/1000 em)	Giãn ký tự (1/1000 em)
+	Kerning: Metrics, Optical or a value in 1/1000 em (Alt+←/→ at the caret)	Kerning: Metrics, Optical hoặc giá trị 1/1000 em (Alt+←/→ tại con trỏ)
+	Vertical scale	Tỷ lệ dọc
+	Horizontal scale	Tỷ lệ ngang
+	Baseline	Đường cơ sở
+	Baseline shift	Dịch đường cơ sở
+	Text color	Màu chữ
+	Faux Bold	Đậm giả
+	Faux Italic	Nghiêng giả
+	All Caps	Chữ hoa
+	Small Caps	Chữ hoa nhỏ
+	Underline	Gạch chân
+	Strikethrough	Gạch ngang
+	Font	Phông chữ
+	Regular	Regular
+	Italic	Italic
+	Search fonts	Tìm phông chữ
+	Select a type layer to edit its character and paragraph settings.	Chọn lớp chữ để chỉnh thiết lập ký tự và đoạn văn.
+	Anti-aliasing method	Phương pháp khử răng cưa
+	Type Options	Tùy chọn chữ
+	Justify last left	Căn đều, dòng cuối trái
+	Justify last centered	Căn đều, dòng cuối giữa
+	Justify last right	Căn đều, dòng cuối phải
+	Justify all	Căn đều tất cả
+	Indent left margin	Thụt lề trái
+	Indent right margin	Thụt lề phải
+	Indent first line	Thụt dòng đầu
+	Add space before paragraph	Khoảng cách trước đoạn
+	Add space after paragraph	Khoảng cách sau đoạn
+	Indent First	Thụt dòng đầu
+	Indent Left	Thụt trái
+	Indent Right	Thụt phải
+	Space Before	Trước đoạn
+	Space After	Sau đoạn
+	Hyphenate	Ngắt từ
+	Left	Trái
+	Center	Giữa
+	Right	Phải
+	Type Styles	Kiểu chữ
+	No character style	Không có kiểu ký tự
+	Click to apply, {key}-click to clear overrides, double-click for Style Options	Bấm để áp dụng, {key}-click để xóa ghi đè, double-click cho Tùy chọn kiểu
+	Clear Override	Xóa ghi đè
+	Redefine style by current selection	Định nghĩa lại kiểu theo vùng chọn hiện tại
+	Delete style	Xóa kiểu
+	Create new style (from the selected type)	Tạo kiểu mới (từ chữ đang chọn)
+	Duplicate style	Nhân bản kiểu
+	Style Options…	Tùy chọn kiểu…
+	Style Options	Tùy chọn kiểu
+	Close Style Options	Đóng Tùy chọn kiểu
+	Name	Tên
+	Select text to apply a character style	Chọn văn bản để áp dụng kiểu ký tự
+	Show:	Hiện:
+	Entire Font	Toàn bộ phông
+	Recently Used	Dùng gần đây
+	Select a type layer or click into text to insert glyphs	Chọn lớp chữ hoặc bấm vào văn bản để chèn glyph
+	Basic Latin	Latin cơ bản
+	Latin 1	Latin 1
+	Latin Extended-A	Latin mở rộng A
+	Latin Extended-B	Latin mở rộng B
+	Greek	Hy Lạp
+	Cyrillic	Kirin
+	Punctuation	Dấu câu
+	Numbers	Số
+	Currency	Tiền tệ
+	Symbols	Ký hiệu
+	Math Symbols	Ký hiệu toán
+	Arrows	Mũi tên
 
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
