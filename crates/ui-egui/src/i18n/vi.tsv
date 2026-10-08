@@ -11,7 +11,7 @@
 #
 # Status: intentionally incomplete. Missing entries fall back to English. `complete_menus` stays
 # false until the catalog covers menus, `tl!` literals, blend modes and preference labels.
-# Phase 3.1–3.5: menus through View. Window / Help and dialogs remain later.
+# Phase 3.1–3.6: all top-level menu trees. Panel/dialog internals remain later.
 # dialogs remain for later batches.
 #
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
@@ -616,6 +616,81 @@
 	Working Yellow Plate	Bản Yellow làm việc
 	Zoom In	Phóng to
 	Zoom Out	Thu xa
+
+
+# Phase 3.6 — Window menu, Help menu
+	2-up Horizontal	2 cửa sổ ngang
+	2-up Vertical	2 cửa sổ dọc
+	3-up Horizontal	3 cửa sổ ngang
+	3-up Stacked	3 cửa sổ xếp chồng
+	3-up Vertical	3 cửa sổ dọc
+	4-up	4 cửa sổ
+	6-up	6 cửa sổ
+	About PhotoCraft	Giới thiệu PhotoCraft
+	Actions	Thao tác
+	ArtCraft Website	Trang web ArtCraft
+	Brush Settings	Thiết lập cọ
+	Brushes	Cọ
+	Cascade	Xếp tầng
+	Channels	Kênh
+	Character	Ký tự
+	Character Styles	Kiểu ký tự
+	Classic Theme	Chủ đề cổ điển
+	Clone Source	Nguồn clone
+	Consolidate All to Tabs	Gom tất cả vào tab
+	Delete Workspace…	Xóa không gian làm việc…
+	Essentials	Cơ bản
+	Float All in Windows	Thả nổi tất cả trong cửa sổ
+	Float in Window	Thả nổi trong cửa sổ
+	Glyphs	Glyph
+	Gradients	Chuyển sắc
+	Graphic and Web	Đồ họa và Web
+	Histogram	Histogram
+	History	Lịch sử
+	Info	Thông tin
+	Join the ArtCraft Discord…	Tham gia Discord ArtCraft…
+	Layer Comps	Tổ hợp lớp
+	Lock Workspace	Khóa không gian làm việc
+	Match All	Đồng bộ tất cả
+	Match Location	Đồng bộ vị trí
+	Match Rotation	Đồng bộ góc xoay
+	Match Zoom	Đồng bộ thu phóng
+	Measurement Log	Nhật ký đo
+	Modifier Keys	Phím bổ trợ
+	Motion	Chuyển động
+	Navigator	Điều hướng
+	New Window for Document	Cửa sổ mới cho tài liệu
+	New Workspace…	Không gian làm việc mới…
+	Next Theme	Chủ đề tiếp theo
+	Options	Thanh tùy chọn
+	Painting	Vẽ
+	Paragraph	Đoạn văn
+	Paragraph Styles	Kiểu đoạn văn
+	Paths	Đường dẫn
+	Patterns	Họa tiết
+	PhotoCraft on GitHub	PhotoCraft trên GitHub
+	PhotoCraft Website	Trang web PhotoCraft
+	Photography	Nhiếp ảnh
+	Pixel Art	Pixel Art
+	Pro Medium Gray Theme	Chủ đề Pro xám vừa
+	Pro Theme	Chủ đề Pro
+	Properties	Thuộc tính
+	Report an Issue…	Báo cáo vấn đề…
+	Reset Workspace	Đặt lại không gian làm việc
+	Shapes	Hình
+	Studio Light Theme	Chủ đề Studio sáng
+	Studio Theme	Chủ đề Studio
+	Styles	Kiểu
+	Swatches	Mẫu màu
+	System Info…	Thông tin hệ thống…
+	Theme	Chủ đề
+	Tile	Xếp ô
+	Tile All Horizontally	Xếp ô theo chiều ngang
+	Tile All Vertically	Xếp ô theo chiều dọc
+	Timeline	Dòng thời gian
+	Tool Presets	Thiết lập sẵn công cụ
+	Tools	Công cụ
+	Workspace	Không gian làm việc
 
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
