@@ -11,7 +11,7 @@
 #
 # Status: intentionally incomplete. Missing entries fall back to English. `complete_menus` stays
 # false until the catalog covers menus, `tl!` literals, blend modes and preference labels.
-# Phase 3.1–3.4: menus through Filter. View / Window / Help and dialogs remain later.
+# Phase 3.1–3.5: menus through View. Window / Help and dialogs remain later.
 # dialogs remain for later batches.
 #
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
@@ -541,6 +541,81 @@
 	Wave…	Sóng…
 	Wind…	Gió…
 	ZigZag…	Zigzag…
+
+
+# Phase 3.5 — View menu
+	100%	100%
+	200%	200%
+	32-bit Preview Options…	Tùy chọn xem trước 32-bit…
+	Anamorphic 2:1 (2)	Anamorphic 2:1 (2)
+	Artboard Guides	Đường căn artboard
+	Brush Preview	Xem trước cọ
+	Canvas Guides	Đường căn canvas
+	Clear Canvas Guides	Xóa đường căn canvas
+	Clear Guides	Xóa đường căn
+	Clear Selected Artboard Guides	Xóa đường căn artboard đã chọn
+	Clear Slices	Xóa lát cắt
+	Color Blindness — Deuteranopia-type	Mù màu — kiểu Deuteranopia
+	Color Blindness — Protanopia-type	Mù màu — kiểu Protanopia
+	Count	Đếm
+	Custom Pixel Aspect Ratio…	Tỷ lệ khung pixel tùy chỉnh…
+	D1/DV NTSC (0.91)	D1/DV NTSC (0.91)
+	D1/DV NTSC Widescreen (1.21)	D1/DV NTSC Widescreen (1.21)
+	D1/DV PAL (1.09)	D1/DV PAL (1.09)
+	D1/DV PAL Widescreen (1.46)	D1/DV PAL Widescreen (1.46)
+	Document Bounds	Ranh giới tài liệu
+	DVCPRO HD 1080/HDV 1080 (1.5)	DVCPRO HD 1080/HDV 1080 (1.5)
+	Edit Pins	Chỉnh ghim
+	Extras	Thành phần phụ
+	Fit Artboard on Screen	Vừa artboard trên màn hình
+	Fit Layer(s) on Screen	Vừa lớp trên màn hình
+	Fit on Screen	Vừa màn hình
+	Full Screen Mode	Toàn màn hình
+	Full Screen Mode With Menu Bar	Toàn màn hình có thanh menu
+	Gamut Warning	Cảnh báo ngoài gam màu
+	Grid	Lưới
+	Guides	Đường căn
+	HDV 1080/DVCPRO HD 720 (1.33)	HDV 1080/DVCPRO HD 720 (1.33)
+	Internet Standard RGB	RGB chuẩn Internet
+	Layer Edges	Cạnh lớp
+	Layers	Các lớp
+	Legacy Macintosh RGB	RGB Macintosh cũ
+	Lock Guides	Khóa đường căn
+	Lock Slices	Khóa lát cắt
+	Mesh	Lưới mesh
+	Monitor RGB	RGB màn hình
+	New Guide Layout…	Bố cục đường căn mới…
+	New Guides From Shape	Đường căn từ hình
+	New Guide…	Đường căn mới…
+	Notes	Ghi chú
+	Pattern Preview	Xem trước họa tiết
+	Pixel Art Preview	Xem trước pixel art
+	Pixel Aspect Ratio	Tỷ lệ khung pixel
+	Pixel Aspect Ratio Correction	Hiệu chỉnh tỷ lệ khung pixel
+	Pixel Grid	Lưới pixel
+	Print Size	Kích thước in
+	Proof Colors	Mô phỏng màu
+	Proof Setup	Thiết lập mô phỏng màu
+	Rulers	Thước
+	Screen Mode	Chế độ màn hình
+	Selection Edges	Cạnh vùng chọn
+	Show	Hiện
+	Show Extras Options…	Tùy chọn thành phần phụ…
+	Slices	Lát cắt
+	Smart Guides	Đường căn thông minh
+	Snap	Bắt dính
+	Snap To	Bắt dính vào
+	Square	Vuông
+	Standard Screen Mode	Chế độ màn hình chuẩn
+	Target Path	Đường dẫn đích
+	Working Black Plate	Bản Black làm việc
+	Working CMY Plate	Bản CMY làm việc
+	Working CMYK	CMYK làm việc
+	Working Cyan Plate	Bản Cyan làm việc
+	Working Magenta Plate	Bản Magenta làm việc
+	Working Yellow Plate	Bản Yellow làm việc
+	Zoom In	Phóng to
+	Zoom Out	Thu xa
 
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
