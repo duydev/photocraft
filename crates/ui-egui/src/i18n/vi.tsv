@@ -28,7 +28,7 @@
 	All	Tất cả
 	Artboards to Files…	Artboard thành tệp…
 	Artboards to PDF…	Artboard thành PDF…
-	Assign Profile…	Gán profile…
+	Assign Profile…	Gán hồ sơ màu…
 	Auto-Align Layers…	Tự căn lớp…
 	Auto-Blend Layers…	Tự hòa trộn lớp…
 	Automate	Tự động hóa
@@ -37,7 +37,7 @@
 	Check Spelling…	Kiểm tra chính tả…
 	Clear	Xóa
 	Clear Recent Files	Xóa tệp gần đây
-	Clipboard	Clipboard
+	Clipboard	Bảng tạm
 	Close	Đóng
 	Close All	Đóng tất cả
 	Close Others	Đóng các tệp khác
@@ -45,9 +45,9 @@
 	Color Settings…	Cài đặt màu…
 	Conditional Mode Change…	Đổi chế độ có điều kiện…
 	Contact Sheet II…	Contact Sheet II…
-	Content-Aware Fill…	Tô nhận biết nội dung…
-	Content-Aware Scale	Co giãn nhận biết nội dung
-	Convert to Profile…	Chuyển sang profile…
+	Content-Aware Fill…	Tô theo nội dung…
+	Content-Aware Scale	Co giãn theo nội dung
+	Convert to Profile…	Chuyển sang hồ sơ màu…
 	Copy	Sao chép
 	Copy Merged	Sao chép đã gộp
 	Create Droplet…	Tạo Droplet…
@@ -55,7 +55,7 @@
 	Cursors…	Con trỏ…
 	Cut	Cắt
 	Data Sets as Files…	Tập dữ liệu thành tệp…
-	Define Brush Preset…	Định nghĩa preset cọ…
+	Define Brush Preset…	Định nghĩa thiết lập sẵn cọ…
 	Define Custom Shape…	Định nghĩa hình tùy chỉnh…
 	Define Pattern…	Định nghĩa họa tiết…
 	Delete All Empty Layers	Xóa mọi lớp trống
@@ -66,7 +66,7 @@
 	Export	Xuất
 	Export As…	Xuất dạng…
 	Export Preferences…	Tùy chọn xuất…
-	Export/Import Presets…	Xuất/Nhập preset…
+	Export/Import Presets…	Xuất/Nhập thiết lập sẵn…
 	Export…	Xuất…
 	Fade…	Pha…
 	File	Tệp
@@ -100,9 +100,9 @@
 	Maximize	Phóng to
 	Menus…	Menu…
 	Merge to HDR Pro…	Ghép HDR Pro…
-	Migrate Presets	Di chuyển preset
+	Migrate Presets	Di chuyển thiết lập sẵn
 	Minimize	Thu nhỏ
-	New from Clipboard	Mới từ Clipboard
+	New from Clipboard	Mới từ Bảng tạm
 	New…	Mới…
 	Notes…	Ghi chú…
 	Open As…	Mở dạng…
@@ -123,7 +123,7 @@
 	Place Linked…	Đặt liên kết…
 	Plug-ins…	Plug-in…
 	Preferences	Tùy chọn
-	Preset Manager…	Quản lý preset…
+	Preset Manager…	Quản lý thiết lập sẵn…
 	Presets	Preset
 	Print One Copy	In một bản
 	Print…	In…
@@ -260,8 +260,8 @@
 	From Transparency	Từ độ trong suốt
 	Global Light…	Ánh sáng toàn cục…
 	Gradient Map…	Ánh xạ chuyển sắc…
-	Gradient Overlay…	Phủ gradient…
-	Gradient…	Gradient…
+	Gradient Overlay…	Phủ chuyển sắc…
+	Gradient…	Chuyển sắc…
 	Grayscale	Thang xám
 	Group from Layers…	Nhóm từ các lớp…
 	Group Layers	Nhóm các lớp
@@ -478,7 +478,7 @@
 	Despeckle	Khử đốm
 	Difference Clouds	Mây sai khác
 	Diffuse…	Khuếch tán…
-	Displace…	Dịch chuyển bản đồ…
+	Displace…	Dịch chuyển…
 	Dust & Scratches…	Bụi và vết xước…
 	Emboss…	Dập nổi…
 	Extrude…	Đùn khối…
@@ -497,7 +497,7 @@
 	Lens Blur…	Làm mờ ống kính…
 	Lens Flare…	Lóa ống kính…
 	Lighting Effects…	Hiệu ứng ánh sáng…
-	Liquify…	Làm lỏng…
+	Liquify…	Hóa lỏng…
 	Maximum…	Cực đại…
 	Median…	Trung vị…
 	Mezzotint…	Mezzotint…
@@ -582,7 +582,7 @@
 	Legacy Macintosh RGB	RGB Macintosh cũ
 	Lock Guides	Khóa đường căn
 	Lock Slices	Khóa lát cắt
-	Mesh	Lưới mesh
+	Mesh	Lưới
 	Monitor RGB	RGB màn hình
 	New Guide Layout…	Bố cục đường căn mới…
 	New Guides From Shape	Đường căn từ hình
@@ -615,7 +615,7 @@
 	Working Magenta Plate	Bản Magenta làm việc
 	Working Yellow Plate	Bản Yellow làm việc
 	Zoom In	Phóng to
-	Zoom Out	Thu xa
+	Zoom Out	Thu nhỏ
 
 
 # Phase 3.6 — Window menu, Help menu
@@ -636,7 +636,7 @@
 	Character	Ký tự
 	Character Styles	Kiểu ký tự
 	Classic Theme	Chủ đề cổ điển
-	Clone Source	Nguồn clone
+	Clone Source	Nguồn nhân bản
 	Consolidate All to Tabs	Gom tất cả vào tab
 	Delete Workspace…	Xóa không gian làm việc…
 	Essentials	Cơ bản
@@ -797,7 +797,7 @@
 	Pressure for Opacity	Áp lực cho độ mờ
 	Always use pressure for size	Luôn dùng áp lực cho kích thước
 	Always use pressure for opacity	Luôn dùng áp lực cho độ mờ
-	Enable airbrush-style build-up effects	Bật hiệu ứng tích tụ kiểu airbrush
+	Enable airbrush-style build-up effects	Bật hiệu ứng tích tụ kiểu bút phun
 	Use tablet pressure to change pen width	Dùng áp lực bảng vẽ để đổi độ rộng nét
 	Zoom	Thu phóng
 	Linear Gradient	Chuyển sắc tuyến tính
@@ -823,7 +823,7 @@
 	Source	Nguồn
 	Destination	Đích
 	Patch:	Vá:
-	Create Texture	Tạo texture
+	Create Texture	Tạo kết cấu
 	Proximity Match	Khớp gần
 	Structure:	Cấu trúc:
 	Finger Painting	Vẽ bằng ngón
@@ -832,7 +832,7 @@
 	Move	Di chuyển
 	Saturate	Tăng bão hòa
 	Color:	Màu:
-	{key}-click to set the source	{key}-click để đặt nguồn
+	{key}-click to set the source	{key}-bấm để đặt nguồn
 	{key} to subtract	{key} để trừ
 	Drag a rectangle around the object	Kéo hình chữ nhật quanh đối tượng
 	Lasso around an area, then drag the selection	Khoanh vùng bằng Lasso, rồi kéo vùng chọn
@@ -848,7 +848,7 @@
 	Count: {n}	Đếm: {n}
 	Create a new count group	Tạo nhóm đếm mới
 	Delete count group	Xóa nhóm đếm
-	Toggle count group visibility	Bật/tắt hiện nhóm đếm
+	Toggle count group visibility	Hiện/ẩn nhóm đếm
 	Label Size	Cỡ nhãn
 	Marker Size	Cỡ dấu
 	Show or hide the Notes panel	Hiện hoặc ẩn bảng Ghi chú
@@ -866,13 +866,13 @@
 	Drag to draw a gradient	Kéo để vẽ chuyển sắc
 	Click to fill similar colours	Bấm để tô các màu tương tự
 	Click to add text	Bấm để thêm chữ
-	Click to sample the foreground colour  ·  {key}-click for background	Bấm để lấy mẫu màu nền trước  ·  {key}-click cho nền
-	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	Bấm để phóng to  ·  {key}-click để thu xa  ·  kéo phải/trái để thu phóng
+	Click to sample the foreground colour  ·  {key}-click for background	Bấm để lấy mẫu màu nền trước  ·  {key}-bấm cho nền
+	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	Bấm để phóng to  ·  {key}-bấm để thu nhỏ  ·  kéo phải/trái để thu phóng
 	Drag or click polygon points · hold Alt during lasso for straight segments · {add} add · {sub} before drawing subtracts	Kéo hoặc bấm điểm đa giác · giữ Alt khi Lasso để có đoạn thẳng · {add} thêm · {sub} trước khi vẽ sẽ trừ
 	Hold Alt while drawing for straight segments	Giữ Alt khi vẽ để có đoạn thẳng
 	Click the first point or press {key} to close · Esc cancels	Bấm điểm đầu hoặc nhấn {key} để đóng · Esc hủy
 	Click the first point or press {key} to close · {del} removes a point · Esc cancels	Bấm điểm đầu hoặc nhấn {key} để đóng · {del} xóa điểm · Esc hủy
-	Click, then move along an edge · click to fasten a point · {alt}-click for a straight segment · double-click to close	Bấm, rồi di chuyển dọc cạnh · bấm để ghim điểm · {alt}-click cho đoạn thẳng · double-click để đóng
+	Click, then move along an edge · click to fasten a point · {alt}-click for a straight segment · double-click to close	Bấm, rồi di chuyển dọc cạnh · bấm để ghim điểm · {alt}-bấm cho đoạn thẳng · nhấp đúp để đóng
 	Follows only edges this close to the pointer ([ and ] change it)	Chỉ theo cạnh gần con trỏ trong khoảng này ([ và ] để đổi)
 	Higher values follow only edges that contrast sharply with their surroundings	Giá trị cao hơn chỉ theo cạnh tương phản rõ với xung quanh
 	How often fastening points are placed by themselves	Tần suất tự đặt điểm ghim
@@ -885,7 +885,7 @@
 	Align right edges	Căn cạnh phải
 	Drag to move the active shape's path or the Work Path	Kéo để di chuyển đường dẫn hình đang chọn hoặc Đường dẫn làm việc
 	Click: corner · Drag: smooth · Click first point: close · {key} finish · Esc cancel	Bấm: góc · Kéo: mượt · Bấm điểm đầu: đóng · {key} xong · Esc hủy
-	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	Bấm: chọn điểm neo · Kéo: di chuyển điểm neo, tay nắm hoặc đoạn · {shift}-click: thêm · {alt}-click: cả nhánh con
+	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	Bấm: chọn điểm neo · Kéo: di chuyển điểm neo, tay nắm hoặc đoạn · {shift}-bấm: thêm · {alt}-bấm: cả nhánh con
 
 
 # Phase 3.8 — Layers + Properties + History panel internals
@@ -923,10 +923,10 @@
 	Collapse	Thu gọn
 	Expand	Mở rộng
 	Collapse All Groups	Thu gọn mọi nhóm
-	Collapse group  ({key}-click: all groups)	Thu gọn nhóm  ({key}-click: mọi nhóm)
-	Expand group  ({key}-click: all groups)	Mở rộng nhóm  ({key}-click: mọi nhóm)
-	Hide the layer's effects  ({key}-click: all layers)	Ẩn hiệu ứng lớp  ({key}-click: mọi lớp)
-	Show the layer's effects  ({key}-click: all layers)	Hiện hiệu ứng lớp  ({key}-click: mọi lớp)
+	Collapse group  ({key}-click: all groups)	Thu gọn nhóm  ({key}-bấm: mọi nhóm)
+	Expand group  ({key}-click: all groups)	Mở rộng nhóm  ({key}-bấm: mọi nhóm)
+	Hide the layer's effects  ({key}-click: all layers)	Ẩn hiệu ứng lớp  ({key}-bấm: mọi lớp)
+	Show the layer's effects  ({key}-click: all layers)	Hiện hiệu ứng lớp  ({key}-bấm: mọi lớp)
 	Link the mask to the layer	Liên kết mặt nạ với lớp
 	Unlink the mask from the layer	Bỏ liên kết mặt nạ khỏi lớp
 	Delete Layer	Xóa lớp
@@ -980,7 +980,7 @@
 	Blue, Red, Yellow	Xanh dương, Đỏ, Vàng
 	Brightness	Độ sáng
 	Channel:	Kênh:
-	Click to add a point · drag off or {key}-click or Delete to remove	Bấm để thêm điểm · kéo ra hoặc {key}-click hoặc Delete để xóa
+	Click to add a point · drag off or {key}-click or Delete to remove	Bấm để thêm điểm · kéo ra hoặc {key}-bấm hoặc Delete để xóa
 	Colorize	Tô màu
 	Constant	Hằng số
 	Copper	Đồng
@@ -998,7 +998,7 @@
 	Magenta  ·  Green	Magenta  ·  Xanh lục
 	Master	Chính
 	Monochrome	Đơn sắc
-	Offset	Offset
+	Offset	Dịch lệch
 	Output Channel:	Kênh đầu ra:
 	Output Levels:	Mức đầu ra:
 	Output:	Đầu ra:
@@ -1057,7 +1057,7 @@
 	Right	Phải
 	Type Styles	Kiểu chữ
 	No character style	Không có kiểu ký tự
-	Click to apply, {key}-click to clear overrides, double-click for Style Options	Bấm để áp dụng, {key}-click để xóa ghi đè, nhấp đúp cho Tùy chọn kiểu
+	Click to apply, {key}-click to clear overrides, double-click for Style Options	Bấm để áp dụng, {key}-bấm để xóa ghi đè, nhấp đúp cho Tùy chọn kiểu
 	Clear Override	Xóa ghi đè
 	Redefine style by current selection	Định nghĩa lại kiểu theo vùng chọn hiện tại
 	Delete style	Xóa kiểu
@@ -1158,7 +1158,7 @@
 	Stroke Catch-up	Bù theo nét
 	Catch-up on Stroke End	Bù khi kết thúc nét
 	Adjust for Zoom	Điều chỉnh theo thu phóng
-	Airbrush: keeps depositing paint while the pointer rests.	Airbrush: tiếp tục phủ màu khi con trỏ đứng yên.
+	Airbrush: keeps depositing paint while the pointer rests.	Bút phun: tiếp tục phủ màu khi con trỏ đứng yên.
 	Rate	Tốc độ
 	Enable {name}	Bật {name}
 	Create new brush from these settings	Tạo cọ mới từ các thiết lập này
@@ -1208,7 +1208,7 @@
 
 # Phase 3.12 — Channels + Paths + Navigator + Info + Histogram
 	Show the layer mask as an overlay	Hiện mặt nạ lớp dạng phủ
-	Toggle visibility	Bật/tắt hiện
+	Toggle visibility	Hiện/ẩn
 	Load channel as selection	Tải kênh thành vùng chọn
 	Save selection as channel	Lưu vùng chọn thành kênh
 	Delete current channel	Xóa kênh hiện tại
@@ -1257,7 +1257,7 @@
 	Std Dev:	Độ lệch chuẩn:
 	Median:	Trung vị:
 	Pixels:	Pixel:
-	Cache Level:	Mức cache:
+	Cache Level:	Mức đệm:
 
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
