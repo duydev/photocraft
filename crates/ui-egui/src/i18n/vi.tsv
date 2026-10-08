@@ -82,7 +82,7 @@
 	Flip Vertical	Lật dọc
 	Free Transform	Biến đổi tự do
 	Generate	Tạo
-	Guides, Grid & Slices…	Đường căn, lưới & lát…
+	Guides, Grid & Slices…	Đường căn, lưới & lát cắt…
 	Help	Trợ giúp
 	Histories	Lịch sử
 	History Log…	Nhật ký lịch sử…
@@ -130,7 +130,7 @@
 	Puppet Warp	Biến dạng con rối
 	Purge	Dọn
 	Quick Export as PNG	Xuất nhanh dạng PNG
-	Raw Defaults…	Mặc định Raw…
+	Raw Defaults…	Mặc định Camera Raw…
 	Redo	Làm lại
 	Remove Warp Split	Gỡ tách biến dạng
 	Render Video…	Xuất video…
@@ -161,7 +161,7 @@
 	Toolbar…	Thanh công cụ…
 	Tools…	Công cụ…
 	Transform	Biến đổi
-	Transparency & Gamut…	Trong suốt & gamut…
+	Transparency & Gamut…	Độ trong suốt & gam màu…
 	Type	Chữ
 	Type…	Chữ…
 	Undo	Hoàn tác
@@ -1301,7 +1301,7 @@
 	Highlight Priority	Ưu tiên vùng sáng
 	Highlights	Vùng sáng
 	Hue	Tông màu
-	Light	Ánh sáng
+	Light	Sáng
 	Lights	Vùng sáng trung bình
 	Luminance	Độ sáng
 	Luminance Detail	Chi tiết độ sáng
@@ -1347,3 +1347,153 @@ cameraRaw	Masking	Che
 cameraRaw	Blending	Pha trộn
 cameraRaw	Highlights	Vùng sáng
 cameraRaw	Shadows	Vùng tối
+
+# Phase 4.1 — Preferences dialog
+	125%	125%
+	150%	150%
+	175%	175%
+	250%	250%
+	300%	300%
+	75%	75%
+	Add disk	Thêm đĩa
+	Additional plugins folder	Thư mục plug-in bổ sung
+	Advanced	Nâng cao
+	Always	Luôn luôn
+	Applies at next launch.	Áp dụng ở lần khởi chạy sau.
+	Ask	Hỏi
+	Ask before saving layered tiff	Hỏi trước khi lưu TIFF nhiều lớp
+	Auto show home screen	Tự hiện màn hình chính
+	Automatic (recommended)	Tự động (khuyến nghị)
+	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	Tự động dùng tăng tốc GPU khi có và chuyển sang kết xuất CPU nếu lỗi.
+	Autosave	Tự động lưu
+	Autosave minutes	Phút giữa các lần tự động lưu
+	Bicubic	Bicubic
+	Bicubic automatic	Bicubic tự động
+	Bicubic sharper	Bicubic sắc hơn
+	Bicubic smoother	Bicubic mượt hơn
+	Bilinear	Song tuyến
+	Both	Cả hai
+	Brush picker	Bộ chọn cọ
+	Cache tile size	Kích thước ô đệm
+	Camera Raw Defaults	Mặc định Camera Raw
+	Canvas border	Viền canvas
+	Canvas color	Màu canvas
+	Canvas custom color	Màu canvas tùy chỉnh
+	Centimeters	Centimet
+	Classic	Cổ điển
+	Concise	Ngắn gọn
+	Convert to srgb	Chuyển sang sRGB
+	Copyright	Bản quyền
+	CPU (no GPU acceleration)	CPU (không tăng tốc GPU)
+	CPU / Compatibility	CPU / Tương thích
+	Cursors	Con trỏ
+	Custom dark	Tối tùy chỉnh
+	Custom light	Sáng tùy chỉnh
+	Dark	Tối
+	Dark gray	Xám đậm
+	Dashed lines	Đường đứt
+	Detailed	Chi tiết
+	DirectX 12	DirectX 12
+	Drop shadow	Đổ bóng
+	Enabled	Bật
+	Enhanced Controls	Điều khiển nâng cao
+	Erase	Tẩy
+	File Handling	Xử lý tệp
+	File path	Đường dẫn tệp
+	Full size tip	Đầu cọ đủ kích thước
+	Gamut warning color	Màu cảnh báo gam
+	Gamut warning opacity	Độ mờ cảnh báo gam
+	General	Chung
+	Gif	GIF
+	GPU	GPU
+	GPU Backend	Backend GPU
+	Graphics	Đồ họa
+	Grid color	Màu lưới
+	Grid colors	Màu lưới
+	Grid size	Cỡ lưới
+	Grid style	Kiểu lưới
+	Grid unit	Đơn vị lưới
+	Gridline every	Đường lưới mỗi
+	Guide color	Màu đường căn
+	Guide style	Kiểu đường căn
+	Guides, Grid & Slices	Đường căn, lưới & lát cắt
+	History Log	Nhật ký lịch sử
+	History states	Số trạng thái lịch sử
+	Image interpolation	Nội suy ảnh
+	Inches	Inch
+	Integrations	Tích hợp
+	Interface	Giao diện
+	Jpeg quality	Chất lượng JPEG
+	Jpg	JPG
+	Language	Ngôn ngữ
+	Light gray	Xám nhạt
+	Line	Đường
+	Lines	Đường liền
+	Lossless	Không mất dữ liệu
+	Medium gray	Xám vừa
+	Memory usage mb	Mức dùng bộ nhớ (MB)
+	Metadata	Siêu dữ liệu
+	Metal	Metal
+	Millimeters	Milimet
+	Nearest neighbor	Lân cận gần nhất
+	Never	Không bao giờ
+	Normal tip	Đầu cọ thường
+	OpenGL	OpenGL
+	Other	Khác
+	Overscroll	Cuộn vượt biên
+	Percent	Phần trăm
+	Performance	Hiệu năng
+	Picas	Pica
+	Pixels	Pixel
+	Plug-ins	Plug-in
+	Png	PNG
+	Point size	Cỡ point
+	Points	Point
+	PostScript (72 points/inch)	PostScript (72 point/inch)
+	Precise	Chính xác
+	Preserve details	Giữ chi tiết
+	Pro	Pro
+	Pro medium	Pro vừa
+	Quality	Chất lượng
+	Quick export format	Định dạng xuất nhanh
+	Quick export location	Vị trí xuất nhanh
+	Recent file count	Số tệp gần đây
+	Recent files	Tệp gần đây
+	Recover on launch	Khôi phục khi khởi chạy
+	Remember workspace changes	Ghi nhớ thay đổi không gian làm việc
+	Rendering Mode	Chế độ kết xuất
+	Reset Section	Đặt lại mục
+	Right click with painting tools	Chuột phải với công cụ vẽ
+	Same folder	Cùng thư mục
+	Scratch Disks	Đĩa tạm
+	Scratch disks	Đĩa tạm
+	Sessions only	Chỉ phiên
+	Show bounding box when dragging layer	Hiện khung bao khi kéo lớp
+	Show crosshair in brush tip	Hiện tâm chữ thập trong đầu cọ
+	Show menu colors	Hiện màu mục menu
+	Show only crosshair while painting	Chỉ hiện tâm chữ thập khi vẽ
+	Show slice numbers	Hiện số lát cắt
+	Show tooltips	Hiện chú giải
+	Slice color	Màu lát cắt
+	Smart guide color	Màu đường căn thông minh
+	Snap vector tools and transforms to pixel grid	Bắt dính công cụ vector và biến đổi vào lưới pixel
+	Standard	Chuẩn
+	Studio	Studio
+	Studio light	Studio sáng
+	Subdivisions	Phân chia
+	System title bar	Thanh tiêu đề hệ thống
+	Text file	Tệp văn bản
+	These settings aren't available in PhotoCraft yet.	Các thiết lập này chưa có trong PhotoCraft.
+	Tiny	Rất nhỏ
+	Traditional (72.27 points/inch)	Truyền thống (72,27 point/inch)
+	Transparency & Gamut	Độ trong suốt & gam màu
+	UI font size	Cỡ chữ giao diện
+	UI scale	Tỷ lệ giao diện
+	Units & Rulers	Đơn vị & thước
+	Use additional plugins folder	Dùng thư mục plug-in bổ sung
+	Use legacy free transform	Dùng biến đổi tự do kiểu cũ
+	Use shift key for tool switch	Dùng phím Shift để đổi công cụ
+	Use tablet pressure	Dùng áp lực bảng vẽ
+	Vulkan	Vulkan
+	Webp	WebP
+	Zoom with scroll wheel	Thu phóng bằng bánh xe cuộn
