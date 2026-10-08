@@ -1497,3 +1497,56 @@ cameraRaw	Shadows	Vùng tối
 	Vulkan	Vulkan
 	Webp	WebP
 	Zoom with scroll wheel	Thu phóng bằng bánh xe cuộn
+
+
+# Phase 4.2 — general dialogs, status/progress, warnings/errors
+	Yes	Có
+	No	Không
+	Don't Save	Không lưu
+	Create	Tạo
+	Dismiss	Đóng
+	Done	Hoàn tất
+	Error	Lỗi
+	Format	Định dạng
+	Details	Chi tiết
+	About	Giới thiệu
+	Contributors	Người đóng góp
+	Models	Mô hình
+	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — trình chỉnh sửa ảnh gốc mã nguồn mở viết bằng Rust.
+	Version {version}	Phiên bản {version}
+	Unsaved changes	Thay đổi chưa lưu
+	Answer the unsaved-changes prompt first	Hãy trả lời hộp thoại thay đổi chưa lưu trước
+	Do you want to save the changes you made to “{name}” before closing?	Bạn có muốn lưu các thay đổi trên “{name}” trước khi đóng không?
+	Do you want to save the changes you made to “{name}” before quitting?	Bạn có muốn lưu các thay đổi trên “{name}” trước khi thoát không?
+	Revert “{name}” to the last saved version? Your changes will be lost.	Hoàn nguyên “{name}” về bản đã lưu gần nhất? Các thay đổi của bạn sẽ bị mất.
+	Opening…	Đang mở…
+	Opening {name}	Đang mở {name}
+	Opening {name}…	Đang mở {name}…
+	Working…	Đang xử lý…
+	Reading…	Đang đọc…
+	Cancel (Esc)	Hủy (Esc)
+	Esc to cancel	Esc để hủy
+	Cancel opening	Hủy mở tệp
+	Cancelled opening {name}	Đã hủy mở {name}
+	Cancelled {label}	Đã hủy {label}
+	Cancel transform (Esc)	Hủy biến đổi (Esc)
+	Cancel warp (Esc)	Hủy biến dạng (Esc)
+	Save cancelled	Đã hủy lưu
+	Spell check complete.	Đã kiểm tra chính tả xong.
+	Save failed: {error}	Không thể lưu: {error}
+	Couldn't place {name}: {error}	Không thể đặt {name}: {error}
+	Invalid {mode} profile	Hồ sơ {mode} không hợp lệ
+	Embedded Profile Mismatch	Hồ sơ nhúng không khớp
+	Assign working space	Gán không gian làm việc
+	Leave as is (don't color manage)	Giữ nguyên (không quản lý màu)
+	Use the embedded profile (instead of the working space)	Dùng hồ sơ nhúng (thay vì không gian làm việc)
+	Convert document's colors to the working space	Chuyển màu tài liệu sang không gian làm việc
+	Discard the embedded profile (don't color manage)	Bỏ hồ sơ nhúng (không quản lý màu)
+	Native file drag-and-drop is unavailable	Kéo thả tệp gốc không khả dụng
+	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or run PhotoCraft under XWayland with `WAYLAND_DISPLAY= photocraft`.	Kéo thả tệp gốc chưa được hỗ trợ trên Wayland. Dùng Tệp › Mở, hoặc chạy PhotoCraft dưới XWayland với `WAYLAND_DISPLAY= photocraft`.
+	Switched to CPU rendering	Đã chuyển sang kết xuất CPU
+	GPU acceleration could not continue. Your documents are unchanged.	Không thể tiếp tục tăng tốc GPU. Tài liệu của bạn không đổi.
+	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft đang dùng bộ kết hợp ảnh CPU. Cửa sổ vẫn có thể dùng bộ điều hợp đồ họa của bạn.
+	Retry GPU	Thử lại GPU
+	Retry GPU requires a restart. Save your work first.	Thử lại GPU cần khởi động lại. Hãy lưu công việc trước.
+	Keep Using CPU	Tiếp tục dùng CPU
