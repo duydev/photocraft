@@ -11,8 +11,8 @@
 #
 # Status: intentionally incomplete. Missing entries fall back to English. `complete_menus` stays
 # false until the catalog covers menus, `tl!` literals, blend modes and preference labels.
-# Phase 3.1–3.6: all top-level menu trees. Phase 3.7: tool names + Tool Options bar.
-# Panel/dialog internals remain later.
+# Phase 3.1–3.7: menus + tools/options. Phase 3.8: Layers/Properties/History panels.
+# Other panel internals remain later.
 #
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
 # Vietnamese computing and image-editing vocabulary. No proprietary localisation resource, string
@@ -748,8 +748,8 @@
 	Edit in Quick Mask Mode  (Q)	Chỉnh sửa ở chế độ Mặt nạ nhanh  (Q)
 	Edit in Standard Mode  (Q)	Chỉnh sửa ở chế độ chuẩn  (Q)
 	Change Screen Mode  (F)	Đổi chế độ màn hình  (F)
-	Opacity	Độ đục
-	Opacity:	Độ đục:
+	Opacity	Độ mờ
+	Opacity:	Độ mờ:
 	Hardness	Độ cứng
 	Smoothing	Làm mượt
 	Tolerance	Dung sai
@@ -794,9 +794,9 @@
 	Show Transform Controls	Hiện điều khiển biến đổi
 	Auto-Select:	Tự chọn:
 	Pressure for Size	Áp lực cho kích thước
-	Pressure for Opacity	Áp lực cho độ đục
+	Pressure for Opacity	Áp lực cho độ mờ
 	Always use pressure for size	Luôn dùng áp lực cho kích thước
-	Always use pressure for opacity	Luôn dùng áp lực cho độ đục
+	Always use pressure for opacity	Luôn dùng áp lực cho độ mờ
 	Enable airbrush-style build-up effects	Bật hiệu ứng tích tụ kiểu airbrush
 	Use tablet pressure to change pen width	Dùng áp lực bảng vẽ để đổi độ rộng nét
 	Zoom	Thu phóng
@@ -886,6 +886,130 @@
 	Drag to move the active shape's path or the Work Path	Kéo để di chuyển đường dẫn hình đang chọn hoặc Đường dẫn làm việc
 	Click: corner · Drag: smooth · Click first point: close · {key} finish · Esc cancel	Bấm: góc · Kéo: mượt · Bấm điểm đầu: đóng · {key} xong · Esc hủy
 	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	Bấm: chọn điểm neo · Kéo: di chuyển điểm neo, tay nắm hoặc đoạn · {shift}-click: thêm · {alt}-click: cả nhánh con
+
+
+# Phase 3.8 — Layers + Properties + History panel internals
+	Pixel Layer	Lớp pixel
+	Type Layer	Lớp chữ
+	Shape Layer	Lớp hình
+	Group Layer	Lớp nhóm
+	Fill Layer	Lớp tô
+	Smart Object Layer	Lớp đối tượng thông minh
+	Adjustment Layer	Lớp điều chỉnh
+	Pixel	Pixel
+	Adjustment	Điều chỉnh
+	Kind	Loại
+	Lock	Khóa
+	Lock:	Khóa:
+	Lock transparent pixels	Khóa pixel trong suốt
+	Lock image pixels	Khóa pixel ảnh
+	Lock position	Khóa vị trí
+	Lock all	Khóa tất cả
+	Lock layer	Khóa lớp
+	Prevent auto-nesting in and out of Artboards and Frames	Chặn tự lồng vào/ra Artboard và Frame
+	Filter for pixel layers	Lọc lớp pixel
+	Filter for adjustment layers	Lọc lớp điều chỉnh
+	Filter for type layers	Lọc lớp chữ
+	Filter for shape layers	Lọc lớp hình
+	Filter for smart objects	Lọc đối tượng thông minh
+	Create a new layer	Tạo lớp mới
+	Create a new group	Tạo nhóm mới
+	Create new fill or adjustment layer	Tạo lớp tô hoặc lớp điều chỉnh mới
+	Delete layer	Xóa lớp
+	Link layers	Liên kết lớp
+	Add a layer style	Thêm kiểu lớp
+	Add a mask  (from the selection; {key} inverts)	Thêm mặt nạ  (từ vùng chọn; {key} đảo)
+	No document	Không có tài liệu
+	Collapse	Thu gọn
+	Expand	Mở rộng
+	Collapse All Groups	Thu gọn mọi nhóm
+	Collapse group  ({key}-click: all groups)	Thu gọn nhóm  ({key}-click: mọi nhóm)
+	Expand group  ({key}-click: all groups)	Mở rộng nhóm  ({key}-click: mọi nhóm)
+	Hide the layer's effects  ({key}-click: all layers)	Ẩn hiệu ứng lớp  ({key}-click: mọi lớp)
+	Show the layer's effects  ({key}-click: all layers)	Hiện hiệu ứng lớp  ({key}-click: mọi lớp)
+	Link the mask to the layer	Liên kết mặt nạ với lớp
+	Unlink the mask from the layer	Bỏ liên kết mặt nạ khỏi lớp
+	Delete Layer	Xóa lớp
+	Delete Layers	Xóa các lớp
+	Duplicate Layers…	Nhân bản các lớp…
+	Add Layer Mask	Thêm mặt nạ lớp
+	Apply Layer Mask	Áp dụng mặt nạ lớp
+	Delete Layer Mask	Xóa mặt nạ lớp
+	Disable Layer Mask	Tắt mặt nạ lớp
+	Release Clipping Mask	Nhả mặt nạ cắt
+	Merge Down	Gộp xuống
+	Quick Export As PNG	Xuất nhanh dạng PNG
+	Rename Layer…	Đổi tên lớp…
+	Frame from Layers…	Frame từ các lớp…
+	Create new document from current state	Tạo tài liệu mới từ trạng thái hiện tại
+	Create new snapshot	Tạo ảnh chụp trạng thái mới
+	Delete current state	Xóa trạng thái hiện tại
+	No properties	Không có thuộc tính
+	Hide Properties	Ẩn Thuộc tính
+	{name} Properties	Thuộc tính {name}
+	Adjustment visible	Hiện lớp điều chỉnh
+	Clip to layer below	Cắt theo lớp dưới
+	Reset to defaults	Đặt lại mặc định
+	Document	Tài liệu
+	Canvas	Canvas
+	Link width and height	Liên kết chiều rộng và chiều cao
+	Landscape	Ngang
+	Resolution: {dpi} pixels/inch	Độ phân giải: {dpi} pixel/inch
+	Rulers & Grids	Thước & Lưới
+	Background Color	Màu nền
+	Align and Distribute	Căn chỉnh và phân bố
+	Align {what}	Căn {what}
+	Add an adjustment	Thêm điều chỉnh
+	Levels	Mức
+	Curves	Đường cong
+	Hue/Saturation	Tông màu/Độ bão hòa
+	Brightness/Contrast	Độ sáng/Độ tương phản
+	Color Balance	Cân bằng màu
+	Black & White	Đen & Trắng
+	Channel Mixer	Bộ trộn kênh
+	Gradient Map	Bản đồ chuyển sắc
+	Color Lookup	Tra cứu màu
+	Photo Filter	Bộ lọc ảnh
+	Selective Color	Màu chọn lọc
+	Threshold	Ngưỡng
+	Posterize	Poster hóa
+	Add Stop	Thêm điểm dừng
+	Remove stop	Xóa điểm dừng
+	Auto	Tự động
+	Black, White	Đen, Trắng
+	Blue, Red, Yellow	Xanh dương, Đỏ, Vàng
+	Brightness	Độ sáng
+	Channel:	Kênh:
+	Click to add a point · drag off or {key}-click or Delete to remove	Bấm để thêm điểm · kéo ra hoặc {key}-click hoặc Delete để xóa
+	Colorize	Tô màu
+	Constant	Hằng số
+	Copper	Đồng
+	Custom	Tùy chỉnh
+	Cyan  ·  Red	Cyan  ·  Đỏ
+	Default	Mặc định
+	Density	Mật độ
+	Filter:	Bộ lọc:
+	Foreground to Background	Nền trước đến nền
+	Gamma Correction	Hiệu chỉnh gamma
+	Gray	Xám
+	Input:	Đầu vào:
+	Invert has no settings.	Đảo không có thiết lập.
+	Lightness	Độ sáng
+	Magenta  ·  Green	Magenta  ·  Xanh lục
+	Master	Chính
+	Monochrome	Đơn sắc
+	Offset	Offset
+	Output Channel:	Kênh đầu ra:
+	Output Levels:	Mức đầu ra:
+	Output:	Đầu ra:
+	Preserve Luminosity	Giữ độ sáng
+	Preset:	Preset:
+	Threshold Level	Mức ngưỡng
+	Tone:	Tông:
+	Total:	Tổng:
+	Use Legacy	Dùng bản cũ
+	Violet, Orange	Tím, Cam
+	Yellow  ·  Blue	Vàng  ·  Xanh dương
 
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
