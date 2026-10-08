@@ -11,7 +11,7 @@
 #
 # Status: intentionally incomplete. Missing entries fall back to English. `complete_menus` stays
 # false until the catalog covers menus, `tl!` literals, blend modes and preference labels.
-# Phase 3.1–3.2: top-level, File, Edit, Image and Layer menu trees. Other menus and
+# Phase 3.1–3.3: top-level, File, Edit, Image, Layer, Type and Select menus.
 # dialogs remain for later batches.
 #
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
@@ -382,6 +382,82 @@
 	Vibrance…	Độ sống động…
 	Video	Video
 	Video Layers	Lớp video
+
+
+# Phase 3.3 — Type menu, Select menu
+	Anti-Alias	Khử răng cưa
+	Border…	Viền…
+	Character Panel	Bảng ký tự
+	Character Styles Panel	Bảng kiểu ký tự
+	Color Range…	Phạm vi màu…
+	Contextual Alternates	Thay thế theo ngữ cảnh
+	Contract…	Thu hẹp…
+	Convert to Paragraph Text	Chuyển thành văn bản đoạn
+	Convert to Point Text	Chuyển thành văn bản điểm
+	Convert to Shape	Chuyển thành hình
+	Create Work Path	Tạo đường dẫn làm việc
+	Crisp	Rõ nét
+	Default Features	Tính năng mặc định
+	Deselect	Bỏ chọn
+	Deselect Layers	Bỏ chọn lớp
+	Discretionary Ligatures	Chữ nối tùy chọn
+	East Asian Features	Tính năng Đông Á
+	Edit in Quick Mask Mode	Chỉnh trong chế độ mặt nạ nhanh
+	Expand…	Mở rộng…
+	Extra Large	Rất lớn
+	Feather…	Làm mềm cạnh…
+	Find Layers	Tìm lớp
+	Focus Area…	Vùng nét…
+	Font Preview Size	Cỡ xem trước phông
+	Fractions	Phân số
+	Glyphs Panel	Bảng glyph
+	Grow	Mở rộng theo màu
+	Horizontal	Ngang
+	Huge	Cực lớn
+	Inverse Selection	Đảo vùng chọn
+	Isolate Layers	Cô lập lớp
+	Language Options	Tùy chọn ngôn ngữ
+	Large	Lớn
+	Load Default Type Styles	Tải kiểu chữ mặc định
+	Load Selection…	Tải vùng chọn…
+	Medium	Vừa
+	Middle Eastern & South Asian Composer	Bộ soạn thảo Trung Đông & Nam Á
+	Middle Eastern Features	Tính năng Trung Đông
+	Modify	Sửa đổi
+	Oldstyle	Cổ điển
+	OpenType	OpenType
+	Ordinals	Số thứ tự
+	Orientation	Hướng chữ
+	Ornaments	Họa tiết chữ
+	Panels	Bảng
+	Paragraph Panel	Bảng đoạn văn
+	Paragraph Styles Panel	Bảng kiểu đoạn văn
+	Paste Lorem Ipsum	Dán Lorem Ipsum
+	Rasterize Type Layer	Raster hóa lớp chữ
+	Replace All Missing Fonts	Thay mọi phông chữ thiếu
+	Reselect	Chọn lại
+	Resolve Missing Fonts…	Xử lý phông chữ thiếu…
+	Save Default Type Styles	Lưu kiểu chữ mặc định
+	Save Selection…	Lưu vùng chọn…
+	Select and Mask…	Chọn và mặt nạ…
+	Sharp	Sắc
+	Similar	Tương tự
+	Sky	Bầu trời
+	Small	Nhỏ
+	Smooth	Mượt
+	Smooth…	Làm mượt…
+	Standard Ligatures	Chữ nối chuẩn
+	Strong	Mạnh
+	Stylistic Alternates	Thay thế kiểu dáng
+	Subject	Chủ thể
+	Swash	Nét hoa
+	Titling Alternates	Thay thế tiêu đề
+	Transform Selection	Biến đổi vùng chọn
+	Update All Text Layers	Cập nhật mọi lớp văn bản
+	Vertical	Dọc
+	Warp Text…	Biến dạng chữ…
+	Windows	Windows
+	Windows LCD	Windows LCD
 
 # Mixer Brush (required for every registered non-English language)
 	Mixer Brush	Cọ trộn
