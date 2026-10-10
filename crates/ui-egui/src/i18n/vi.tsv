@@ -1287,7 +1287,7 @@
 	Color Priority	Ưu tiên màu
 	Contrast	Độ tương phản
 	Curve	Đường cong
-	Darks	Vùng tối trung bình
+	Darks	Vùng tối vừa
 	Dehaze	Khử sương
 	Detail	Chi tiết
 	Effects	Hiệu ứng
@@ -1296,16 +1296,16 @@
 	Full-resolution preview unavailable	Không có bản xem trước độ phân giải đầy đủ
 	Global	Toàn cục
 	Grain	Hạt
-	Green	Xanh lục
+	Green	Xanh lá
 	Highlight Clipping Warning (O)	Cảnh báo cắt vùng sáng (O)
 	Highlight Priority	Ưu tiên vùng sáng
 	Highlights	Vùng sáng
-	Hue	Tông màu
+	Hue	Sắc màu
 	Light	Sáng
-	Lights	Vùng sáng trung bình
+	Lights	Vùng sáng vừa
 	Luminance	Độ sáng
 	Luminance Detail	Chi tiết độ sáng
-	Magenta	Magenta
+	Magenta	Đỏ tía
 	Masking	Che
 	Midpoint	Điểm giữa
 	Midtones	Trung tính
@@ -1338,8 +1338,8 @@
 	Whites	Điểm trắng
 	Yellow	Vàng
 cameraRaw	Light	Ánh sáng
-cameraRaw	Lights	Vùng sáng trung bình
-cameraRaw	Darks	Vùng tối trung bình
+cameraRaw	Lights	Vùng sáng vừa
+cameraRaw	Darks	Vùng tối vừa
 cameraRaw	Blacks	Điểm đen
 cameraRaw	Amount	Mức
 cameraRaw	Tint	Sắc độ
@@ -1645,3 +1645,17 @@ cameraRaw	Dehaze	Khử sương
 cameraRaw	Temperature	Nhiệt độ màu
 cameraRaw	Vibrance	Độ sống động
 cameraRaw	Saturation	Độ bão hòa
+
+# Phase 4.7 — Camera Raw Curve + Color Mixer
+cameraRaw	Curve	Đường cong
+cameraRaw	Color Mixer	Bộ trộn màu
+cameraRaw	Hue	Sắc màu
+cameraRaw	Luminance	Độ sáng
+cameraRaw	Red	Đỏ
+cameraRaw	Orange	Cam
+cameraRaw	Yellow	Vàng
+cameraRaw	Green	Xanh lá
+cameraRaw	Aqua	Xanh ngọc
+cameraRaw	Blue	Xanh dương
+cameraRaw	Purple	Tím
+cameraRaw	Magenta	Đỏ tía
