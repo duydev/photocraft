@@ -1295,7 +1295,7 @@
 	Feather	Làm mềm cạnh
 	Full-resolution preview unavailable	Không có bản xem trước độ phân giải đầy đủ
 	Global	Toàn cục
-	Grain	Hạt
+	Grain	Hạt phim
 	Green	Xanh lá
 	Highlight Clipping Warning (O)	Cảnh báo cắt vùng sáng (O)
 	Highlight Priority	Ưu tiên vùng sáng
@@ -1669,3 +1669,10 @@ cameraRaw	Detail	Chi tiết
 cameraRaw	Radius	Bán kính
 cameraRaw	Luminance Detail	Chi tiết độ sáng
 cameraRaw	Color Detail	Chi tiết màu
+
+# Phase 4.10 — Camera Raw Effects (Texture/Clarity/Dehaze + Vignetting + Grain)
+cameraRaw	Feather	Độ mềm cạnh
+cameraRaw	Midpoint	Điểm giữa
+cameraRaw	Roundness	Độ tròn
+cameraRaw	Roughness	Độ thô
+cameraRaw	Size	Kích thước
