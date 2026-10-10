@@ -1273,13 +1273,13 @@
 	Aqua	Xanh ngọc
 	Balance	Cân bằng
 	Before (Y)	Trước (Y)
-	Blacks	Đen
+	Blacks	Điểm đen
 	Blending	Pha trộn
 	Blue	Xanh dương
 	Camera Raw Filter ({layer})	Bộ lọc Camera Raw ({layer})
 	Camera Raw isn't open	Camera Raw chưa mở
 	Cancel	Hủy
-	Clarity	Độ trong
+	Clarity	Độ rõ
 	Color	Màu
 	Color Detail	Chi tiết màu
 	Color Grading	Phân cấp màu
@@ -1330,19 +1330,19 @@
 	Size	Kích thước
 	Temperature	Nhiệt độ màu
 	Texture	Kết cấu
-	Tint	Phủ màu
+	Tint	Sắc độ
 	Tone Histogram	Biểu đồ tông
 	Vibrance	Độ sống động
 	Vignetting	Viền tối
-	White Balance: As Shot	Cân bằng trắng: Như khi chụp
-	Whites	Trắng
+	White Balance: As Shot	Cân bằng trắng: Theo ảnh gốc
+	Whites	Điểm trắng
 	Yellow	Vàng
 cameraRaw	Light	Ánh sáng
 cameraRaw	Lights	Vùng sáng trung bình
 cameraRaw	Darks	Vùng tối trung bình
-cameraRaw	Blacks	Đen
+cameraRaw	Blacks	Điểm đen
 cameraRaw	Amount	Mức
-cameraRaw	Tint	Phủ màu
+cameraRaw	Tint	Sắc độ
 cameraRaw	Masking	Che
 cameraRaw	Blending	Pha trộn
 cameraRaw	Highlights	Vùng sáng
@@ -1630,3 +1630,18 @@ cameraRaw	Shadows	Vùng tối
 	Action	Thao tác
 	Export Presets	Xuất thiết lập sẵn
 	Import Presets	Nhập thiết lập sẵn
+
+# Phase 4.6 — Camera Raw chrome + Light/Color basics (tone, WB, presence)
+	Fit in View	Vừa khung nhìn
+	Camera Raw	Camera Raw
+cameraRaw	Color	Màu
+cameraRaw	Effects	Hiệu ứng
+cameraRaw	Whites	Điểm trắng
+cameraRaw	Exposure	Phơi sáng
+cameraRaw	Contrast	Độ tương phản
+cameraRaw	Texture	Kết cấu
+cameraRaw	Clarity	Độ rõ
+cameraRaw	Dehaze	Khử sương
+cameraRaw	Temperature	Nhiệt độ màu
+cameraRaw	Vibrance	Độ sống động
+cameraRaw	Saturation	Độ bão hòa
