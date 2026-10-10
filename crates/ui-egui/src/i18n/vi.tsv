@@ -124,7 +124,7 @@
 	Plug-ins…	Plug-in…
 	Preferences	Tùy chọn
 	Preset Manager…	Quản lý thiết lập sẵn…
-	Presets	Preset
+	Presets	Thiết lập sẵn
 	Print One Copy	In một bản
 	Print…	In…
 	Puppet Warp	Biến dạng con rối
@@ -1617,3 +1617,16 @@ cameraRaw	Shadows	Vùng tối
 	Color Management Policies	Chính sách quản lý màu
 	Relative Colorimetric	Đo màu tương đối
 	Absolute Colorimetric	Đo màu tuyệt đối
+
+# Phase 4.5 — Preset Manager + Export/Import Presets
+	Preset Manager	Quản lý thiết lập sẵn
+	Export/Import Presets	Xuất/Nhập thiết lập sẵn
+	Preset Type	Loại thiết lập sẵn
+	No presets of this type.	Không có thiết lập sẵn loại này.
+	Custom Shapes	Hình tùy chỉnh
+	Rename	Đổi tên
+	Load…	Tải…
+	Import Photoshop brushes (.abr)	Nhập cọ Photoshop (.abr)
+	Action	Thao tác
+	Export Presets	Xuất thiết lập sẵn
+	Import Presets	Nhập thiết lập sẵn
