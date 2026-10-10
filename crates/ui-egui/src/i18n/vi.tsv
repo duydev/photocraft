@@ -1936,3 +1936,135 @@ layers	Fill:	Độ tô:
 	Open	Mở
 	Camera Raw ({name})	Camera Raw ({name})
 	Developing {name}	Đang xử lý {name}
+
+# Phase 5.1 — tools / paths / assets / filters / layers
+	101 by 101 Average	Trung bình 101 × 101
+	11 by 11 Average	Trung bình 11 × 11
+	3 by 3 Average	Trung bình 3 × 3
+	31 by 31 Average	Trung bình 31 × 31
+	5 by 5 Average	Trung bình 5 × 5
+	51 by 51 Average	Trung bình 51 × 51
+	Add pair	Thêm cặp
+	Add to Swatches	Thêm vào mẫu màu
+	Add Vector Mask	Thêm mặt nạ vector
+	Adds the current gradient to the Gradients panel	Thêm chuyển sắc hiện tại vào bảng Chuyển sắc
+	Adjustment Preview	Xem trước điều chỉnh
+	All Layers No Adjustments	Mọi lớp không điều chỉnh
+	Alt-click to define a source point to clone from	Alt+nhấp để chỉ định điểm nguồn nhân bản
+	Artboard	Bảng vẽ
+	Artboard Background Color	Màu nền bảng vẽ
+	Auto Adjust Opacity	Tự động điều chỉnh độ mờ
+	Bitmap…	Bitmap…
+	Blend If	Điều kiện hòa trộn
+	Blend If:	Điều kiện hòa trộn:
+	Bottom Left	Dưới trái
+	Bottom Right	Dưới phải
+	Brush Name	Tên cọ
+	Brush Preset Options	Tùy chọn thiết lập sẵn cọ
+	Brush Stroke	Nét cọ
+	Brush Tip	Đầu cọ
+	Channels:	Kênh:
+	Click a red pupil to neutralize it	Nhấp vào đồng tử đỏ để trung hòa
+	Click to pick · Esc to cancel	Nhấp để chọn · Esc để hủy
+	Click to restore the current colour	Nhấp để khôi phục màu hiện tại
+	Clone source {n} ({key}-click with Clone Stamp to set)	Nguồn nhân bản {n} ({key}+nhấp bằng Dấu nhân bản để đặt)
+	Color Picker (Layer Style Color)	Ống hút màu (Màu kiểu lớp)
+	Color Picker (Text Color)	Ống hút màu (Màu chữ)
+	Color to Alpha…	Màu sang alpha…
+	Corner radius	Bán kính góc
+	Create new shape from the current path	Tạo hình mới từ đường dẫn hiện tại
+	Create new style from the selected layer	Tạo kiểu mới từ lớp đã chọn
+	Create new swatch	Tạo mẫu màu mới
+	Create new tool preset	Tạo thiết lập sẵn công cụ mới
+	Crop Shield color	Màu màn che vùng cắt
+	Current & Below No Adjustments	Hiện tại & dưới không điều chỉnh
+	Current Tool Only	Chỉ công cụ hiện tại
+	Cycle Overlay	Đổi lớp phủ
+	Darken Amount	Mức làm tối
+	Dash / gap lengths × stroke width	Độ dài nét đứt / khoảng trống × độ dày nét
+	Dashed line	Nét đứt
+	Delete effect layer	Xóa lớp hiệu ứng
+	Delete Tool Preset	Xóa thiết lập sẵn công cụ
+	Delete tool preset	Xóa thiết lập sẵn công cụ
+	Diagonal	Đường chéo
+	Dual Axis	Hai trục
+	Edit Type	Chỉnh sửa chữ
+	Enable Crop Shield	Bật màn che vùng cắt
+	Export Swatches for Exchange…	Xuất mẫu màu để trao đổi…
+	Export Swatches…	Xuất mẫu màu…
+	Eyedroppers:	Ống hút màu:
+	From Center	Từ tâm
+	Glow Color	Màu phát sáng
+	Gradient Editor	Trình sửa chuyển sắc
+	Gradient picker	Bộ chọn chuyển sắc
+	Gradient stops	Điểm dừng chuyển sắc
+	Heart	Trái tim
+	Import brushes (.abr)	Nhập cọ (.abr)
+	Import Brushes…	Nhập cọ…
+	Import Swatches…	Nhập mẫu màu…
+	Knockout	Đục lỗ
+	Link radii	Liên kết bán kính
+	Match Canvas	Khớp canvas
+	Move effect layer down	Di chuyển lớp hiệu ứng xuống
+	Move effect layer up	Di chuyển lớp hiệu ứng lên
+	New Brush Preset…	Thiết lập sẵn cọ mới…
+	New effect layer	Lớp hiệu ứng mới
+	New Swatch Group…	Nhóm mẫu màu mới…
+	New Swatch…	Mẫu màu mới…
+	No Color	Không màu
+	No patterns	Không có họa tiết
+	No presets for the current tool.	Không có thiết lập sẵn cho công cụ hiện tại.
+	No subject found — try a rectangle around the object	Không tìm thấy chủ thể — thử khung chữ nhật quanh đối tượng
+	No subject found — try Object Selection or the Lasso	Không tìm thấy chủ thể — thử Chọn đối tượng hoặc Lasso
+	No tool presets.	Không có thiết lập sẵn công cụ.
+	Not a web colour: click for the nearest web colour	Không phải màu web: nhấp để lấy màu web gần nhất
+	Now drag the selection onto another area	Bây giờ kéo vùng chọn sang vùng khác
+	Object Selection found nothing there — try a tighter rectangle	Chọn đối tượng không tìm thấy gì — thử khung chữ nhật chặt hơn
+	Only Web Colors	Chỉ màu web
+	Open paths use centered strokes	Đường dẫn mở dùng nét căn giữa
+	Option-click to define a source point to clone from	Option+nhấp để chỉ định điểm nguồn nhân bản
+	Out of gamut for printing: click for the nearest printable colour	Ngoài gamut in: nhấp để lấy màu in được gần nhất
+	Pick screen color	Lấy màu màn hình
+	Point Sample	Mẫu điểm
+	Pupil Size	Kích thước đồng tử
+	Quick Selection found nothing there	Chọn nhanh không tìm thấy gì
+	Rasterize Type	Raster hóa chữ
+	Remove pair	Xóa cặp
+	Rename Tool Preset…	Đổi tên thiết lập sẵn công cụ…
+	Replace Swatches…	Thay thế mẫu màu…
+	Reset Swatches	Đặt lại mẫu màu
+	Reset Transform	Đặt lại biến đổi
+	Sample a pixel anywhere on the screen	Lấy mẫu một điểm ảnh bất kỳ trên màn hình
+	Sample Size:	Kích thước mẫu:
+	Save As Preset	Lưu thành thiết lập sẵn
+	Scroll to zoom	Cuộn để thu phóng
+	Selection Preview:	Xem trước vùng chọn:
+	Set additional Crop options	Đặt tùy chọn Cắt bổ sung
+	Set Black Point	Đặt điểm đen
+	Set Neutral Gray Point	Đặt điểm xám trung tính
+	Set painting symmetry options	Đặt tùy chọn đối xứng khi vẽ
+	Set shape fill type	Đặt kiểu tô hình
+	Set shape stroke type	Đặt kiểu nét hình
+	Set the overlay options for the Crop tool	Đặt tùy chọn lớp phủ cho công cụ Cắt
+	Set White Point	Đặt điểm trắng
+	Show Cropped Area	Hiện vùng đã cắt
+	Show Overlay	Hiện lớp phủ
+	Show Sampling Ring	Hiện vòng lấy mẫu
+	Sides	Số cạnh
+	Source: not set ({key}-click with Clone Stamp)	Nguồn: chưa đặt ({key}+nhấp bằng Dấu nhân bản)
+	Star ratio	Tỷ lệ sao
+	Star Ratio:	Tỷ lệ sao:
+	Straighten the image by drawing a line on it	Chỉnh thẳng ảnh bằng cách vẽ một đường trên ảnh
+	Stroke color	Màu nét
+	Stroke Options	Tùy chọn nét
+	Symmetry Off	Tắt đối xứng
+	The gradient the Gradient tool paints with	Chuyển sắc mà công cụ Chuyển sắc dùng để tô
+	Top Left	Trên trái
+	Top Right	Trên phải
+	Unavailable in this color mode	Không dùng được ở chế độ màu này
+	Update the current brush with these settings	Cập nhật cọ hiện tại với các thiết lập này
+	Use finite lengths and a positive pattern total	Dùng độ dài hữu hạn và tổng họa tiết dương
+	Uses the foreground and background colours.	Dùng màu nền trước và màu nền sau.
+	Weight	Độ dày
+	Zoom in	Phóng to
+	Zoom out	Thu nhỏ
