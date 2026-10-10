@@ -1756,3 +1756,79 @@ document	Orientation	Hướng trang
 	All Slices	Mọi lát cắt
 	All User Slices	Mọi lát cắt người dùng
 	Matte	Matte
+
+# Phase 4.15 — Warp / Liquify / Perspective / Puppet
+	Warp:	Biến dạng:
+	Bend:	Độ uốn:
+	Split:	Chia:
+	Grid:	Lưới:
+	3 x 3	3 × 3
+	4 x 4	4 × 4
+	5 x 5	5 × 5
+	Commit warp ({key})	Áp dụng biến dạng ({key})
+	Commit transform ({key})	Áp dụng biến đổi ({key})
+	Switch between free transform and warp modes	Chuyển giữa biến đổi tự do và biến dạng
+	Interpolation:	Nội suy:
+	Arc	Cung
+	Arc Lower	Cung dưới
+	Arc Upper	Cung trên
+	Arch	Vòm
+	Bulge	Phồng
+	Shell Lower	Vỏ dưới
+	Shell Upper	Vỏ trên
+	Flag	Cờ
+	Wave	Sóng
+	Fish	Cá
+	Rise	Nhô
+	Fisheye	Mắt cá
+	Inflate	Phồng to
+	Squeeze	Ép
+	Twist	Xoắn
+	Liquify is not open	Hóa lỏng chưa mở
+	Freeze Lasso: drag to freeze an area, Alt-drag to thaw it (L)	Lasso đóng băng: kéo để đóng băng vùng, Alt-kéo để rã đông (L)
+	Brush Tool Options	Tùy chọn công cụ cọ
+	Brush Reconstruct Options	Tùy chọn khôi phục cọ
+	Reconstruct	Khôi phục
+	Restore All	Khôi phục tất cả
+	Mask Options	Tùy chọn mặt nạ
+	Mask All	Mặt nạ tất cả
+	Invert All	Đảo tất cả
+	View Options	Tùy chọn xem
+	Show Mesh	Hiện lưới
+	Mesh Size	Kích thước lưới
+	Show Mask	Hiện mặt nạ
+	Show Backdrop	Hiện nền sau
+	Forward Warp	Đẩy biến dạng
+	Twirl Clockwise	Xoáy thuận
+	Twirl Counterclockwise	Xoáy ngược
+	Pucker	Co vào
+	Bloat	Phồng ra
+	Push Left	Đẩy trái
+	Freeze Mask	Đóng băng mặt nạ
+	Thaw Mask	Rã đông mặt nạ
+	Freeze Lasso	Lasso đóng băng
+	Reconstruct All	Khôi phục tất cả
+	Mask None	Bỏ mặt nạ
+	Invert Mask	Đảo mặt nạ
+	Perspective Warp is not active	Biến dạng phối cảnh chưa hoạt động
+	Perspective Warp: draw planes along the image's perspective, then switch to Warp	Biến dạng phối cảnh: vẽ mặt phẳng theo phối cảnh ảnh, rồi chuyển sang Biến dạng
+	Straighten	Chỉnh thẳng
+	Level	Cân ngang
+	Automatically straighten near-vertical line segments	Tự chỉnh thẳng các đoạn gần thẳng đứng
+	Automatically level near-horizontal line segments	Tự cân ngang các đoạn gần nằm ngang
+	Automatically straighten and level	Tự chỉnh thẳng và cân ngang
+	Remove Planes	Xóa mặt phẳng
+	Commit Perspective Warp ({key})	Áp dụng biến dạng phối cảnh ({key})
+	Puppet Warp is not active	Biến dạng con rối chưa hoạt động
+	Rigid	Cứng
+	Density:	Mật độ:
+	Fewer Points	Ít điểm hơn
+	More Points	Nhiều điểm hơn
+	Expansion:	Mở rộng:
+	Pin Depth:	Độ sâu ghim:
+	Bring the selected pin forward	Đưa ghim đã chọn lên trước
+	Send the selected pin backward	Đưa ghim đã chọn ra sau
+	Rotate:	Xoay:
+	Fixed	Cố định
+	Remove All Pins	Xóa mọi ghim
+	Commit Puppet Warp ({key})	Áp dụng biến dạng con rối ({key})
