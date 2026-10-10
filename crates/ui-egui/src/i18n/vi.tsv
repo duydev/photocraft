@@ -1726,3 +1726,33 @@ document	Orientation	Hướng trang
 	32 bit (float)	32-bit (float)
 	Integer	Số nguyên
 	Floating point	Số thực
+
+# Phase 4.14 — Export / Save for Web / TIFF options
+	File Settings	Cài đặt tệp
+	Transparency	Độ trong suốt
+	TIFF Options	Tùy chọn TIFF
+	Including layers will increase file size.	Bao gồm các lớp sẽ làm tăng kích thước tệp.
+	Discard Layers and Save a Copy	Bỏ các lớp và lưu bản sao
+	Don't show again	Không hiện lại
+	Save…	Lưu…
+	Export As	Xuất dạng
+	Original	Gốc
+	Optimized	Tối ưu
+	Preset	Thiết lập sẵn
+	Selective	Chọn lọc
+	Adaptive	Thích ứng
+	Restrictive (Web)	Hạn chế (Web)
+	Exact	Chính xác
+	Colors	Màu
+	No Dither	Không hòa sắc
+	Diffusion	Khuếch tán
+	Interlaced	Xen kẽ
+	Web Snap	Khớp Web
+	Progressive	Lũy tiến
+	Embed Color Profile	Nhúng hồ sơ màu
+	Convert to sRGB	Chuyển sang sRGB
+	Copyright and Contact Info	Bản quyền và thông tin liên hệ
+	Save HTML and Images	Lưu HTML và hình ảnh
+	All Slices	Mọi lát cắt
+	All User Slices	Mọi lát cắt người dùng
+	Matte	Matte
