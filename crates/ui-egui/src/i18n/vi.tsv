@@ -1550,3 +1550,35 @@ cameraRaw	Shadows	Vùng tối
 	Retry GPU	Thử lại GPU
 	Retry GPU requires a restart. Save your work first.	Thử lại GPU cần khởi động lại. Hãy lưu công việc trước.
 	Keep Using CPU	Tiếp tục dùng CPU
+
+# Phase 4.3 — Keyboard Shortcuts and Menus editor
+	Keyboard Shortcuts and Menus	Phím tắt và menu
+	Keyboard Shortcuts	Phím tắt
+	Menus	Menu
+	Toolbar	Thanh công cụ
+	Search	Tìm kiếm
+	command or shortcut	lệnh hoặc phím tắt
+	Press keys…	Nhấn phím…
+	modified	đã sửa
+	Shortcut removed.	Đã xóa phím tắt.
+	Use Default	Dùng mặc định
+	Default restored.	Đã khôi phục mặc định.
+	Delete Shortcut	Xóa phím tắt
+	Reset All to Defaults	Đặt lại tất cả về mặc định
+	All shortcuts reset to Photoshop defaults.	Tất cả phím tắt đã được đặt lại về mặc định Photoshop.
+	Show All Menu Items	Hiện tất cả mục menu
+	Restore Defaults	Khôi phục mặc định
+	Visible	Hiện
+	Cmd	Cmd
+	Ctrl	Ctrl
+	Alt	Alt
+	Shift	Shift
+	Temporary	Tạm thời
+	none	Không
+	red	Đỏ
+	orange	Cam
+	yellow	Vàng
+	green	Xanh lục
+	blue	Xanh dương
+	violet	Tím
+	gray	Xám
