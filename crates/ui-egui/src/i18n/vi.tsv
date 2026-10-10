@@ -9,10 +9,8 @@
 #   escapes  \n  \t  \\  inside a column. `{name}` placeholders must appear in both columns.
 #   lines starting with # and blank lines are ignored.
 #
-# Status: intentionally incomplete. Missing entries fall back to English. `complete_menus` stays
-# false until the catalog covers menus, `tl!` literals, blend modes and preference labels.
-# Phase 3.1–3.9: menus, tools, panels, typography. Phase 3.10: Brushes/Brush Settings.
-# Other panel internals remain later.
+# Status: covers all current stable localization keys. Missing entries fall back to English.
+# `complete_menus` remains false while generated/dynamic long-tail labels are still under review.
 #
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
 # Vietnamese computing and image-editing vocabulary. No proprietary localisation resource, string
