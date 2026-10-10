@@ -2297,3 +2297,10 @@ shape	Appearance	Diện mạo
 	Tetrahedral	Tetrahedral
 	Top	Trên
 	Trilinear	Trilinear
+
+# Phase 5.6 — upstream kys first-launch import prompt
+	Import keyboard shortcuts?	Nhập phím tắt?
+	PhotoCraft found your keyboard shortcut set {set} from another image editor on this computer: {n} of its shortcuts differ from PhotoCraft's. Import it?	PhotoCraft tìm thấy bộ phím tắt {set} từ trình chỉnh sửa ảnh khác trên máy này: {n} phím tắt khác với PhotoCraft. Nhập vào?
+	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	Chỉnh sửa › Phím tắt › Đặt lại tất cả về mặc định sẽ hoàn tác lần nhập.
+	Don't Import	Không nhập
+	The keyboard shortcut set was not imported: {error}	Không nhập được bộ phím tắt: {error}
