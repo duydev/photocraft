@@ -1832,3 +1832,88 @@ document	Orientation	Hướng trang
 	Fixed	Cố định
 	Remove All Pins	Xóa mọi ghim
 	Commit Puppet Warp ({key})	Áp dụng biến dạng con rối ({key})
+
+# Gap Batch 4 — Layer Comps / Styles leftovers / Color Range / plurals / command palette
+	Last Document State	Trạng thái tài liệu cuối
+	Capture the visibility, position and style of every layer with + below, then switch between versions.	Dùng + bên dưới để ghi hiển thị, vị trí và kiểu của mọi lớp, rồi chuyển giữa các phiên bản.
+	Visibility	Hiển thị
+	Position	Vị trí
+	Appearance (Layer Style)	Diện mạo (Kiểu lớp)
+	Apply previous selected layer comp	Áp dụng tổ hợp lớp đã chọn trước
+	Apply next selected layer comp	Áp dụng tổ hợp lớp đã chọn sau
+	Delete layer comp	Xóa tổ hợp lớp
+	Create new layer comp	Tạo tổ hợp lớp
+	Update layer comp (visibility, position and appearance)	Cập nhật tổ hợp lớp (hiển thị, vị trí và diện mạo)
+	Blending Options	Tùy chọn hòa trộn
+	Bevel & Emboss	Vát & nổi
+	Stroke	Viền
+	Inner Shadow	Bóng trong
+	Inner Glow	Phát sáng trong
+	Satin	Satin
+	Color Overlay	Phủ màu
+	Gradient Overlay	Phủ chuyển sắc
+	Pattern Overlay	Phủ họa tiết
+	Outer Glow	Phát sáng ngoài
+	Drop Shadow	Đổ bóng
+	New Style…	Kiểu mới…
+	Style {name} saved	Đã lưu kiểu {name}
+	Reset to Default	Đặt lại mặc định
+	Make Default	Đặt làm mặc định
+	Preview	Xem trước
+	Blend Mode	Chế độ hòa trộn
+	Use Global Light	Dùng ánh sáng chung
+	Distance	Khoảng cách
+	Spread	Lan rộng
+	Choke	Thu hẹp
+	Contour	Đường bao
+	Layer Knocks Out Drop Shadow	Lớp đục lỗ bóng đổ
+	Fill Opacity	Độ mờ tô
+	Link with Layer	Liên kết với lớp
+	Soften	Làm mềm
+	Altitude	Độ cao
+	Outside	Ngoài
+	Inside	Trong
+	Up	Lên
+	Down	Xuống
+	Edge	Cạnh
+	From	Từ
+	To	Đến
+	Inner Bevel	Vát trong
+	Outer Bevel	Vát ngoài
+	Pillow Emboss	Dập nổi đệm
+	Emboss	Dập nổi
+	Select:	Chọn:
+	Localized Color Clusters	Cụm màu cục bộ
+	Fuzziness:	Độ dung sai:
+	Midtones from:	Tông trung gian từ:
+	Midtones to:	Tông trung gian đến:
+	Shadows up to:	Vùng tối đến:
+	Highlights from:	Vùng sáng từ:
+	Color Range preview	Xem trước Phạm vi màu
+	Eyedropper	Ống hút màu
+	Add to Sample	Thêm vào mẫu
+	Subtract from Sample	Bớt khỏi mẫu
+	Sample: foreground colour	Mẫu: màu nền trước
+	{added}, {removed} subtracted	{added}, đã bớt {removed}
+	Clear Samples	Xóa mẫu
+	Selection	Vùng chọn
+	Open a document to select a colour range.	Mở một tài liệu để chọn phạm vi màu.
+	Sampled Colors	Màu lấy mẫu
+	Reds	Đỏ
+	Yellows	Vàng
+	Greens	Xanh lá
+	Cyans	Cyan
+	Blues	Xanh dương
+	Magentas	Đỏ tía
+	Out Of Gamut	Ngoài gamut
+colorRange	Invert	Đảo ngược
+@plural	{n} Layer|{n} Layers	{n} lớp
+@plural	{n} layer|{n} layers	{n} lớp
+@plural	Group · {n} layer|Group · {n} layers	Nhóm · {n} lớp
+@plural	{n} item|{n} items	{n} mục
+@plural	{n} sample|{n} samples	{n} mẫu
+	Search commands	Tìm kiếm lệnh
+	Search commands, tools and panels…	Tìm kiếm lệnh, công cụ và bảng…
+	No matching commands	Không tìm thấy lệnh
+	↑↓ navigate   {key} run   esc close	↑↓ điều hướng   {key} chạy   esc đóng
+	Tool	Công cụ
