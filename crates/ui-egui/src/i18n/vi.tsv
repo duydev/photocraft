@@ -1926,3 +1926,13 @@ colorRange	Invert	Đảo ngược
 	Canvas extension color:	Màu mở rộng canvas:
 layers	Fill	Độ tô
 layers	Fill:	Độ tô:
+
+# Post-rebase gate-required strings
+	Pattern Stamp Tool	Công cụ Con dấu họa tiết
+	Pattern Stamp	Con dấu họa tiết
+	Impressionist	Ấn tượng
+	Scope	Phạm vi
+	Selected	Đã chọn
+	Open	Mở
+	Camera Raw ({name})	Camera Raw ({name})
+	Developing {name}	Đang xử lý {name}
