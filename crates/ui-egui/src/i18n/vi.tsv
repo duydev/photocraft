@@ -1599,8 +1599,8 @@ cameraRaw	Shadows	Vùng tối
 	Ask On Missing	Hỏi khi thiếu hồ sơ
 	Intent	Phương thức chuyển màu
 	Perceptual	Cảm nhận
-	Relative	Đo màu tương đối
-	Absolute	Đo màu tuyệt đối
+	Relative	Tương đối
+	Absolute	Tuyệt đối
 	Bpc	Bù điểm đen
 	Blend Text Gamma	Hòa trộn màu chữ theo gamma
 	Monitor Profile	Hồ sơ màn hình
@@ -1676,3 +1676,53 @@ cameraRaw	Midpoint	Điểm giữa
 cameraRaw	Roundness	Độ tròn
 cameraRaw	Roughness	Độ thô
 cameraRaw	Size	Kích thước
+
+# Phase 4.13 — New Document + Home + Image Size
+	Home	Trang chủ
+	Recent	Gần đây
+	Photo	Ảnh
+	Print	In
+	Art & Illustration	Nghệ thuật & Minh họa
+	Web	Web
+	Mobile	Di động
+	Film & Video	Phim & Video
+	New Document	Tài liệu mới
+	Create a new document or open an existing file.	Tạo tài liệu mới hoặc mở tệp hiện có.
+	Drop an image or PSD anywhere to open it.	Thả hình ảnh hoặc tệp PSD vào đây để mở.
+	Use File › Open to open an image.	Dùng Tệp › Mở để mở hình ảnh.
+	BLANK DOCUMENT PRESETS ({n})	Thiết lập sẵn tài liệu trống ({n})
+	PRESET DETAILS	Chi tiết thiết lập sẵn
+	Untitled-1	Chưa đặt tên-1
+	Untitled	Chưa đặt tên
+	Resolution	Độ phân giải
+	Resolution:	Độ phân giải:
+	Color Mode	Chế độ màu
+	Background Contents	Nội dung nền
+	Pixels/Inch	Pixel/inch
+	Pixels/Centimeter	Pixel/centimet
+	White	Trắng
+	Transparent	Trong suốt
+	Portrait	Dọc
+	Default Photoshop Size	Kích thước Photoshop mặc định
+document	Orientation	Hướng trang
+	Image Size	Kích thước ảnh
+	Image Size:	Kích thước ảnh:
+	Dimensions:	Kích thước:
+	Constrain proportions	Giữ tỷ lệ
+	Maintain aspect ratio	Giữ tỷ lệ
+	Resample	Lấy mẫu lại
+	Preserve Details	Giữ chi tiết
+	Bicubic (smooth gradients)	Bicubic (chuyển sắc mượt)
+	Lanczos (sharp)	Lanczos (sắc)
+	Nearest Neighbor (hard edges)	Nearest Neighbor (cạnh cứng)
+	Nearest Neighbor	Nearest Neighbor
+	Current Size	Kích thước hiện tại
+	New Size	Kích thước mới
+	Size:	Kích thước:
+	Width:	Chiều rộng:
+	Height:	Chiều cao:
+	8 bit	8-bit
+	16 bit	16-bit
+	32 bit (float)	32-bit (float)
+	Integer	Số nguyên
+	Floating point	Số thực
