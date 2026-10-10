@@ -1582,3 +1582,38 @@ cameraRaw	Shadows	Vùng tối
 	blue	Xanh dương
 	violet	Tím
 	gray	Xám
+
+# Phase 4.4 — Color Settings dialog
+	Color Settings	Cài đặt màu
+	Black Point Compensation	Bù điểm đen
+	Working Rgb	RGB làm việc
+	Working Cmyk	CMYK làm việc
+	Working Gray	Xám làm việc
+	Policy Rgb	Chính sách RGB
+	Policy Cmyk	Chính sách CMYK
+	Policy Gray	Chính sách xám
+	Preserve	Giữ hồ sơ nhúng
+	Convert	Chuyển sang không gian màu làm việc
+	Ask On Mismatch	Hỏi khi hồ sơ không khớp
+	Ask On Paste	Hỏi khi dán
+	Ask On Missing	Hỏi khi thiếu hồ sơ
+	Intent	Phương thức chuyển màu
+	Perceptual	Cảm nhận
+	Relative	Đo màu tương đối
+	Absolute	Đo màu tuyệt đối
+	Bpc	Bù điểm đen
+	Blend Text Gamma	Hòa trộn màu chữ theo gamma
+	Monitor Profile	Hồ sơ màn hình
+	Srgb	sRGB
+	Display-p3	Display P3
+	Adobe-rgb-compat	Adobe RGB (compat)
+	Prophoto-compat	ProPhoto RGB (compat)
+	Linear-srgb	Linear sRGB
+	Rec2020	Rec. 2020
+	Coated-cmyk	Coated CMYK
+	Sgray	sGray
+	Gray-gamma-2.2	Gray Gamma 2.2
+	Working Spaces	Không gian màu làm việc
+	Color Management Policies	Chính sách quản lý màu
+	Relative Colorimetric	Đo màu tương đối
+	Absolute Colorimetric	Đo màu tuyệt đối
