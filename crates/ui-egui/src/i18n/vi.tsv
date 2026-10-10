@@ -2237,3 +2237,35 @@ layers	Fill:	Độ tô:
 	Suggestions:	Gợi ý:
 	Text Position:	Vị trí văn bản:
 	Variables bind a layer's visibility, text or pixels to a named data slot.	Biến gắn trạng thái hiện, văn bản hoặc pixel của lớp với một khe dữ liệu có tên.
+
+# Phase 5.4 — Help / About / credits
+	% of all commits	% tổng số commit
+	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{binAdded} / −{binDeleted} binary assets, {first} – {last}	@{login}: {prs} PR, {commits} commit, dòng +{added} / −{deleted} (Δ {delta}), tài sản nhị phân +{binAdded} / −{binDeleted}, {first} – {last}
+	0 turns this threshold off; SVG groups nested deeper than 100 levels are always rasterized.	0 tắt ngưỡng này; nhóm SVG lồng nhau sâu hơn 100 cấp luôn được raster hóa.
+	Alt-click went to the desktop, which moves windows with Alt-drag. Set its window-move key to Super, or latch Alt in Window › Modifier Keys.	Alt+nhấp bị desktop chiếm (Alt-kéo để di chuyển cửa sổ). Đặt phím di chuyển cửa sổ thành Super, hoặc cố định Alt trong Cửa sổ › Phím bổ trợ.
+	Binary assets added	Tài sản nhị phân thêm
+	Binary assets removed	Tài sản nhị phân xóa
+	Commits	Commit
+	Company	Công ty
+	Contributors: {contributors} · Commits: {commits}	Người đóng góp: {contributors} · Commit: {commits}
+	Display name	Tên hiển thị
+	First	Đầu
+	First commit	Commit đầu
+	Grab bag	Tổng hợp
+	Last	Cuối
+	Last commit	Commit cuối
+	Line delta	Chênh lệch dòng
+	Lines +/−	Dòng +/−
+	Lines added	Dòng thêm
+	Lines deleted	Dòng xóa
+	Merged PRs	PR đã gộp
+	Model	Mô hình
+	Name (A–Z)	Tên (A–Z)
+	No contributor data was built into this copy.	Bản sao này không có dữ liệu người đóng góp.
+	No model credits were built into this copy.	Bản sao này không có ghi công mô hình.
+	Real name	Tên thật
+	Reverse the order	Đảo thứ tự
+	Sort	Sắp xếp
+	Table	Bảng
+	Username	Tên người dùng
+	Version	Phiên bản
