@@ -2137,7 +2137,7 @@ layers	Fill:	Độ tô:
 	Save Preset…	Lưu thiết lập sẵn…
 	Saved	Đã lưu
 	Saving {name}	Đang lưu {name}
-	Scale to Fit Media	Co giãn vừa khổ in
+	Scale to Fit Media	Co giãn vừa khổ giấy
 	Scratch: {size}	Tạm: {size}
 	Show/Hide All Panels	Hiện/Ẩn mọi bảng
 	Show/Hide Panels	Hiện/Ẩn bảng
@@ -2159,3 +2159,20 @@ layers	Fill:	Độ tô:
 	{size} (was {old})	{size} (trước là {old})
 	{w} px x {h} px ({ppi} ppi)	{w} px x {h} px ({ppi} ppi)
 	…and {n} more	…và {n} nữa
+
+# Phase 5.3A — print / proof
+	(print to the printer)	(in ra máy in)
+	Adobe RGB (1998) compatible	Tương thích Adobe RGB (1998)
+	Center Crop Marks	Dấu cắt giữa
+	Coated CMYK	CMYK giấy tráng
+	Color Management	Quản lý màu
+	Copies	Số bản
+	Corner Crop Marks	Dấu cắt góc
+	Default printer	Máy in mặc định
+	No Color Management	Không quản lý màu
+	PhotoCraft Manages Colors	PhotoCraft quản lý màu
+	Printer	Máy in
+	Printer Manages Colors	Máy in quản lý màu
+	Printer Setup	Thiết lập máy in
+	Printing Marks	Dấu in
+	Registration Marks	Dấu chồng màu
