@@ -2068,3 +2068,94 @@ layers	Fill:	Độ tô:
 	Weight	Độ dày
 	Zoom in	Phóng to
 	Zoom out	Thu nhỏ
+
+# Phase 5.2 — dialogs / chrome / preferences / file UI / engine labels
+	A save to {name} is still running; try again when it finishes	Đang lưu {name}; thử lại khi hoàn tất
+	Adwaita Dark Theme	Chủ đề Adwaita tối
+	Adwaita Light Theme	Chủ đề Adwaita sáng
+	All shortcuts reset to PhotoCraft defaults.	Đã đặt lại mọi phím tắt về mặc định PhotoCraft.
+	Appearance Mode	Chế độ giao diện
+	Auto Hide	Tự động ẩn
+	Click to add a point, right-click to remove	Nhấp để thêm điểm, nhấp chuột phải để xóa
+	Close Tab Group	Đóng nhóm tab
+	Collapse Panel Group	Thu gọn nhóm bảng
+	Color Picker (Fill Color)	Ống hút màu (Màu tô)
+	Color Picker (Stroke Color)	Ống hút màu (Màu nét)
+	Contents:	Nội dung:
+	Custom Pattern:	Họa tiết tùy chỉnh:
+	Cycle Screen Mode	Đổi chế độ màn hình
+	Define	Định nghĩa
+	Delete layer ‘{name}’?	Xóa lớp ‘{name}’?
+	Delete layer?	Xóa lớp?
+	Delete {count} layers? {names}	Xóa {count} lớp? {names}
+	Description	Mô tả
+	Doc: {flat}/{layered}	Tài liệu: {flat}/{layered}
+	Duotone…	Hai tông…
+	Edit › Paste	Chỉnh sửa › Dán
+	Edits that change the whole document, such as a layer's blend mode, opacity or visibility, redraw all of it.	Các chỉnh sửa thay đổi cả tài liệu, như chế độ hòa trộn, độ mờ hoặc hiện/ẩn của lớp, sẽ vẽ lại toàn bộ.
+	Efficiency: 100%	Hiệu suất: 100%
+	Expand Panel Group	Mở rộng nhóm bảng
+	Exposure and Gamma	Phơi sáng và gamma
+	Factor:	Hệ số:
+	Fill color	Màu tô
+	Free	Tự do
+	Free Transform a Copy	Biến đổi tự do một bản sao
+	Gamma:	Gamma:
+	Highlight Compression	Nén vùng sáng
+	Import Shortcuts…	Nhập phím tắt…
+	Imported	Đã nhập
+	Imported {n} shortcuts from {file}. Click OK to keep them.	Đã nhập {n} phím tắt từ {file}. Nhấp OK để giữ.
+	Indexed Color…	Màu lập chỉ mục…
+	Install Plug-in…	Cài plug-in…
+	Its layers don't fit the GPU memory budget. Raising Memory usage in Preferences › Performance raises the budget, up to a quarter of this computer's memory.	Các lớp không vừa ngân sách bộ nhớ GPU. Tăng mức sử dụng bộ nhớ trong Tùy chọn › Hiệu năng sẽ nâng ngân sách, tối đa một phần tư bộ nhớ máy này.
+	Labels	Nhãn
+	Large document: redrawing on the CPU	Tài liệu lớn: đang vẽ lại trên CPU
+	Layer deleted, but confirmation preference could not be saved: {error}	Đã xóa lớp, nhưng không lưu được tùy chọn xác nhận: {error}
+	Layer From Background…	Lớp từ nền…
+	Load a keyboard shortcut set saved as .kys	Tải bộ phím tắt đã lưu dạng .kys
+	Location	Vị trí
+	Location:	Vị trí:
+	More documents	Thêm tài liệu
+	More panels	Thêm bảng
+	Move Group Down	Di chuyển nhóm xuống
+	Move Group Up	Di chuyển nhóm lên
+	New Shape Layer	Lớp hình mới
+	New Type Layer	Lớp chữ mới
+	Next Appearance Mode	Chế độ giao diện tiếp theo
+	No saved presets yet.	Chưa có thiết lập sẵn nào.
+	open source	mã nguồn mở
+	Panel locations are saved in the workspace. Keyboard shortcuts, menus and toolbar are optional.	Vị trí bảng được lưu trong không gian làm việc. Phím tắt, menu và thanh công cụ là tùy chọn.
+	Pick a screen pixel or press Esc to cancel	Chọn một điểm ảnh trên màn hình hoặc nhấn Esc để hủy
+	Position and Size	Vị trí và kích thước
+	Preserve Transparency	Giữ độ trong suốt
+	Preset Name	Tên thiết lập sẵn
+	Rasterize Shape	Raster hóa hình
+	Relight…	Chiếu sáng lại…
+	Reset View	Đặt lại khung nhìn
+	Rotate View	Xoay khung nhìn
+	Save as PDF	Lưu dưới dạng PDF
+	Save Preset…	Lưu thiết lập sẵn…
+	Saved	Đã lưu
+	Saving {name}	Đang lưu {name}
+	Scale to Fit Media	Co giãn vừa khổ in
+	Scratch: {size}	Tạm: {size}
+	Show/Hide All Panels	Hiện/Ẩn mọi bảng
+	Show/Hide Panels	Hiện/Ẩn bảng
+	Solarized Dark Theme	Chủ đề Solarized tối
+	Sync with system	Đồng bộ với hệ thống
+	The document is closed	Tài liệu đã đóng
+	The document or selected layers changed. Please request deletion again.	Tài liệu hoặc các lớp đã chọn đã thay đổi. Hãy yêu cầu xóa lại.
+	The GPU compositor wasn't used: {reason}	Không dùng bộ tổng hợp GPU: {reason}
+	This redraw took {seconds} s on the CPU.	Lần vẽ lại này mất {seconds} s trên CPU.
+	Transform Symmetry	Biến đổi đối xứng
+	Unlink Layer Mask	Bỏ liên kết mặt nạ lớp
+	Unnamed {mode} profile	Hồ sơ {mode} chưa đặt tên
+	Untagged {mode}	{mode} chưa gắn hồ sơ
+	Use File › Open, or paste a copied image with {paste}.	Dùng Tệp › Mở, hoặc dán ảnh đã sao chép bằng {paste}.
+	Vector Mask from Current Path	Mặt nạ vector từ đường dẫn hiện tại
+	{label} is writing the file and can no longer be cancelled	{label} đang ghi tệp và không thể hủy nữa
+	{name} options	Tùy chọn {name}
+	{n} commands are not in PhotoCraft.	{n} lệnh không có trong PhotoCraft.
+	{size} (was {old})	{size} (trước là {old})
+	{w} px x {h} px ({ppi} ppi)	{w} px x {h} px ({ppi} ppi)
+	…and {n} more	…và {n} nữa
