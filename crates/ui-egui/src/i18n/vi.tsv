@@ -2176,3 +2176,64 @@ layers	Fill:	Độ tô:
 	Printer Setup	Thiết lập máy in
 	Printing Marks	Dấu in
 	Registration Marks	Dấu chồng màu
+
+# Phase 5.3B — specialist workflows
+	+ Add variable	+ Thêm biến
+	30 frames @ 30 fps	30 khung hình @ 30 fps
+	3D LUT File	Tệp 3D LUT
+	Adaptive Wide Angle isn't open	Góc rộng thích ứng chưa mở
+	Begin recording	Bắt đầu ghi
+	Change All	Thay tất cả
+	Change To:	Thay thành:
+	Check All Layers	Kiểm tra mọi lớp
+	Check Spelling	Kiểm tra chính tả
+	Click with the Note tool to add a note.	Nhấp bằng công cụ Ghi chú để thêm ghi chú.
+	Constraints ({n})	Ràng buộc ({n})
+	Contact Sheet II	Contact Sheet II
+	Create Droplet	Tạo Droplet
+	Create new action	Tạo thao tác mới
+	Create Video Timeline	Tạo dòng thời gian video
+	Crop Factor	Hệ số crop
+	Data Sets	Tập dữ liệu
+	Define at least one variable first.	Hãy định nghĩa ít nhất một biến trước.
+	Delete note	Xóa ghi chú
+	Delete selected measurements	Xóa các phép đo đã chọn
+	Delete Timeline	Xóa dòng thời gian
+	Deselect All	Bỏ chọn tất cả
+	Display Text	Hiển thị văn bản
+	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click to delete.	Kéo trên ảnh để thêm ràng buộc; Shift cho ngang/dọc; nhấp chuột phải để xóa.
+	Export selected measurements (CSV)	Xuất các phép đo đã chọn (CSV)
+	Focal Length	Tiêu cự
+	Font Size:	Cỡ chữ:
+	Full Spherical	Toàn cầu
+	Ignore	Bỏ qua
+	Ignore All	Bỏ qua tất cả
+	image file path	đường dẫn tệp ảnh
+	Length:	Độ dài:
+	Load 3D LUT…	Tải 3D LUT…
+	Logical Length:	Độ dài logic:
+	Logical Units:	Đơn vị logic:
+	name	tên
+	new	mới
+	Next frame	Khung hình tiếp theo
+	Next note	Ghi chú tiếp theo
+	No author	Không có tác giả
+	Not in Dictionary:	Không có trong từ điển:
+	Open a document to define variables.	Mở một tài liệu để định nghĩa biến.
+	Open a document to use the timeline.	Mở một tài liệu để dùng dòng thời gian.
+	Pause	Tạm dừng
+	Pixel Length:	Độ dài pixel:
+	Play	Phát
+	Play selection	Chạy mục đã chọn
+	Presets:	Thiết lập sẵn:
+	Previous frame	Khung hình trước
+	Previous note	Ghi chú trước
+	Record ● a sequence of edits, then play ▶ it on any document.	Ghi ● một chuỗi chỉnh sửa, rồi chạy ▶ trên bất kỳ tài liệu nào.
+	Remove variable	Xóa biến
+	Select All	Chọn tất cả
+	Selections	Vùng chọn
+	Shape:	Hình:
+	Stop playing/recording	Dừng chạy/ghi
+	Suggestions:	Gợi ý:
+	Text Position:	Vị trí văn bản:
+	Variables bind a layer's visibility, text or pixels to a named data slot.	Biến gắn trạng thái hiện, văn bản hoặc pixel của lớp với một khe dữ liệu có tên.
