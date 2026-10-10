@@ -2269,3 +2269,31 @@ layers	Fill:	Độ tô:
 	Table	Bảng
 	Username	Tên người dùng
 	Version	Phiên bản
+
+# Phase 5.5 — final stable-key completion
+	Active	Đang dùng
+	Add	Thêm
+	Appearance	Giao diện
+shape	Appearance	Diện mạo
+	ArtCraft	ArtCraft
+	Bottom	Dưới
+	Capture	Ghi lại
+	Change	Thay
+	Clipped	Cắt theo lớp
+	Correction	Hiệu chỉnh
+	current	hiện tại
+	Cycle Orientation	Đổi hướng khung
+	Difference	Hiệu
+	Discord	Discord
+	Display P3	Display P3
+	GitHub	GitHub
+	Gray Gamma 2.2	Gray Gamma 2.2
+	Invalid delete command	Lệnh xóa không hợp lệ
+	Inverse	Đảo vùng chọn
+	Lighten	Làm sáng
+	Missing delete command	Thiếu lệnh xóa
+	PhotoCraft	PhotoCraft
+	Reset	Đặt lại
+	Tetrahedral	Tetrahedral
+	Top	Trên
+	Trilinear	Trilinear
