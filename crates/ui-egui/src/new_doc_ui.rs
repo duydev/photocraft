@@ -421,7 +421,9 @@ pub fn body(app: &mut crate::PhotocraftApp, ui: &mut egui::Ui, f: &mut Map<Strin
             ui.set_width(260.0);
             ui.label(RichText::new(tl!("PRESET DETAILS")).size(11.0).color(t.text_faint));
             ui.add_space(4.0);
-            let mut name = get_s(f, "name", tl!("Untitled-1"));
+            // Keep the canonical English default in state; only the TextEdit shows a translation.
+            let raw = get_s(f, "name", "Untitled-1");
+            let mut name = if raw == "Untitled-1" { tl!("Untitled-1").to_string() } else { raw };
             let r = ui.add(egui::TextEdit::singleline(&mut name).desired_width(250.0).font(egui::FontId::proportional(15.0)));
             if r.changed() {
                 f.insert("name".into(), json!(name));

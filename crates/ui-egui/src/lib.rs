@@ -1944,6 +1944,10 @@ impl PhotocraftApp {
                 }
             }
         }
+        // Localised default name when still the English placeholder.
+        if f.get("name").and_then(serde_json::Value::as_str) == Some("Untitled-1") {
+            f.insert("name".into(), serde_json::json!(tl!("Untitled-1")));
+        }
         self.import_os_clipboard();
         if let Some(c) = self.session.clipboard.as_ref().filter(|c| !c.bounds.is_empty()) {
             crate::new_doc_ui::set_clipboard(&mut f, c.bounds.width(), c.bounds.height());

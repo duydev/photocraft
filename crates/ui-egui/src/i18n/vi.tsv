@@ -1866,7 +1866,7 @@ document	Orientation	Hướng trang
 	Spread	Lan rộng
 	Choke	Thu hẹp
 	Contour	Đường bao
-	Layer Knocks Out Drop Shadow	Lớp đục lỗ bóng đổ
+	Layer Knocks Out Drop Shadow	Lớp cắt xuyên bóng đổ
 	Fill Opacity	Độ mờ tô
 	Link with Layer	Liên kết với lớp
 	Soften	Làm mềm
@@ -1917,3 +1917,12 @@ colorRange	Invert	Đảo ngược
 	No matching commands	Không tìm thấy lệnh
 	↑↓ navigate   {key} run   esc close	↑↓ điều hướng   {key} chạy   esc đóng
 	Tool	Công cụ
+
+# Visual QA finalization
+	New document…	Tài liệu mới…
+	Join us on Discord	Tham gia Discord
+	PhotoCraft website	Trang web PhotoCraft
+	Anchor:	Neo:
+	Canvas extension color:	Màu mở rộng canvas:
+layers	Fill	Độ tô
+layers	Fill:	Độ tô:
