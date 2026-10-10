@@ -2303,3 +2303,20 @@ shape	Appearance	Diện mạo
 	Edit › Keyboard Shortcuts › Reset All to Defaults undoes an import.	Chỉnh sửa › Phím tắt › Đặt lại tất cả về mặc định sẽ hoàn tác lần nhập.
 	Don't Import	Không nhập
 	The keyboard shortcut set was not imported: {error}	Không nhập được bộ phím tắt: {error}
+
+# Upstream sync after rebase onto main
+	Auto Center Preview	Tự động căn giữa xem trước
+	Brush	Cọ
+	Color Picker ({name})	Bộ chọn màu ({name})
+	Front Image	Ảnh phía trước
+	Next Document	Tài liệu tiếp theo
+	Open EXR Parts…	Mở các phần EXR…
+	Pencil	Bút chì
+	PhotoCraft — Screen Color Picker	PhotoCraft — Bộ chọn màu màn hình
+	Previous Document	Tài liệu trước
+	Refine	Tinh chỉnh
+	Remove from Recent	Xóa khỏi Gần đây
+	Remove {name} from Recent	Xóa {name} khỏi Gần đây
+	Use Classic Mode	Dùng chế độ cổ điển
+	W x H x Resolution	Rộng x Cao x Độ phân giải
+	Block	Khối
