@@ -1308,7 +1308,7 @@
 	Magenta	Đỏ tía
 	Masking	Che
 	Midpoint	Điểm giữa
-	Midtones	Trung tính
+	Midtones	Tông trung gian
 	Noise Reduction	Giảm nhiễu
 	OK	OK
 	Orange	Cam
@@ -1343,8 +1343,8 @@ cameraRaw	Darks	Vùng tối vừa
 cameraRaw	Blacks	Điểm đen
 cameraRaw	Amount	Mức
 cameraRaw	Tint	Sắc độ
-cameraRaw	Masking	Che
-cameraRaw	Blending	Pha trộn
+cameraRaw	Masking	Mặt nạ
+cameraRaw	Blending	Độ hòa trộn
 cameraRaw	Highlights	Vùng sáng
 cameraRaw	Shadows	Vùng tối
 
@@ -1659,3 +1659,13 @@ cameraRaw	Aqua	Xanh ngọc
 cameraRaw	Blue	Xanh dương
 cameraRaw	Purple	Tím
 cameraRaw	Magenta	Đỏ tía
+
+# Phase 4.8 — Camera Raw Color Grading + Detail
+cameraRaw	Color Grading	Phân cấp màu
+cameraRaw	Midtones	Tông trung gian
+cameraRaw	Global	Tổng thể
+cameraRaw	Balance	Cân bằng
+cameraRaw	Detail	Chi tiết
+cameraRaw	Radius	Bán kính
+cameraRaw	Luminance Detail	Chi tiết độ sáng
+cameraRaw	Color Detail	Chi tiết màu
